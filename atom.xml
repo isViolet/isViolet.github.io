@@ -3,9 +3,111 @@
     <id>https://isViolet.github.io</id>
     <title>Violet</title>
     <link href="https://isViolet.github.io" />
-    <updated>2021-04-19T12:52:21.573Z</updated>
+    <updated>2021-04-20T07:40:29.835Z</updated>
     <category term="springboot" />
     <category term="极限和连续" />
+    <category term="无穷小" />
+    <entry>
+        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%206/</id>
+        <title>无穷小的小结</title>
+        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%206/"/>
+        <content type="html">&lt;h1 id=&#34;小结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#小结&#34;&gt;#&lt;/a&gt; 小结&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/xkQjO5IoZsD3aUl.png&#34; alt=&#34;image-20210420154152563&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/sp6YqhCct98MUuB.png&#34; alt=&#34;image-20210420154203375&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/Dh8RFlAJ2aKwI4E.png&#34; alt=&#34;image-20210420154321464&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="无穷小" />
+        <updated>2021-04-20T07:40:29.835Z</updated>
+    </entry>
+    <entry>
+        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%205/</id>
+        <title>无穷小的例题</title>
+        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%205/"/>
+        <content type="html">&lt;h1 id=&#34;例题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#例题&#34;&gt;#&lt;/a&gt; 例题&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/gMsNxOHY41nmyFD.png&#34; alt=&#34;image-20210420152230715&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/zcO1diBYqsToGPS.png&#34; alt=&#34;image-20210420152449953&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/DTiF9qWKvI581jx.png&#34; alt=&#34;image-20210420152843311&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/JWonfBATE6DcV2K.png&#34; alt=&#34;image-20210420153030326&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/3eS1EwgTaIYA2OK.png&#34; alt=&#34;image-20210420153236801&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/U8VNsn3gDq1aRZp.png&#34; alt=&#34;image-20210420153335064&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/6ewag7jok51xCE9.png&#34; alt=&#34;image-20210420153524945&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/8fgL9ch1IyiAKmd.png&#34; alt=&#34;image-20210420153617305&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/JH23Q6j7vYB1iCD.png&#34; alt=&#34;image-20210420153809791&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/G3Mmc7Qa4pVDsXb.png&#34; alt=&#34;image-20210420154007113&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="无穷小" />
+        <updated>2021-04-20T07:17:57.826Z</updated>
+    </entry>
+    <entry>
+        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%204/</id>
+        <title>常用的等价无穷小</title>
+        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%204/"/>
+        <content type="html">&lt;h1 id=&#34;常用的等价无穷小&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用的等价无穷小&#34;&gt;#&lt;/a&gt; 常用的等价无穷小&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/JcBfyWCVRlPrQNU.png&#34; alt=&#34;image-20210420151442170&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;x 可替换成 f (x)，x 趋于无穷小&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/Qvhs7C1jgBGeXSY.png&#34; alt=&#34;image-20210420151603754&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="无穷小" />
+        <updated>2021-04-20T07:12:43.185Z</updated>
+    </entry>
+    <entry>
+        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%203/</id>
+        <title>无穷小的定理</title>
+        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%203/"/>
+        <content type="html">&lt;h1 id=&#34;无穷小的定理1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无穷小的定理1&#34;&gt;#&lt;/a&gt; 无穷小的定理 1&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/UpfCWSjdqG1Y2em.png&#34; alt=&#34;image-20210420150644854&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/eE8NC34Zn2FzWk5.png&#34; alt=&#34;image-20210420150743416&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;无穷小的定理2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无穷小的定理2&#34;&gt;#&lt;/a&gt; 无穷小的定理 2&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/2KzpxZGncN3JFLo.png&#34; alt=&#34;image-20210420150954168&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/tsYIFxV1ZWBaHqd.png&#34; alt=&#34;image-20210420151105349&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="无穷小" />
+        <updated>2021-04-20T07:05:43.035Z</updated>
+    </entry>
+    <entry>
+        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%202/</id>
+        <title>无穷小的性质</title>
+        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%202/"/>
+        <content type="html">&lt;h1 id=&#34;性质&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#性质&#34;&gt;#&lt;/a&gt; 性质&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/xBEc9Jb2D87rCGK.png&#34; alt=&#34;image-20210420150136975&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/wUxjLGAe53vuRH9.png&#34; alt=&#34;image-20210420150247327&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/cp3RFe5nS46OqmN.png&#34; alt=&#34;image-20210420150353982&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="无穷小" />
+        <updated>2021-04-20T07:00:26.571Z</updated>
+    </entry>
+    <entry>
+        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%201/</id>
+        <title>无穷小的定义</title>
+        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%201/"/>
+        <content type="html">&lt;h1 id=&#34;回顾&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回顾&#34;&gt;#&lt;/a&gt; 回顾&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;两个无穷小的和，差，积仍是无穷小&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#问题&#34;&gt;#&lt;/a&gt; 问题&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;两个无穷小的商还是无穷小？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/kd3uzIcDTP4N5Ma.png&#34; alt=&#34;image-20210420144954160&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意：无穷小的商可以比较无穷小趋于 0 的 “快慢” 程度&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;一-定义&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-定义&#34;&gt;#&lt;/a&gt; 一、定义&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/79GawbhBj5KmJNe.png&#34; alt=&#34;image-20210420145523368&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;回看引例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回看引例&#34;&gt;#&lt;/a&gt; 回看引例&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/D7eyjZkucfzagi8.png&#34; alt=&#34;image-20210420145633527&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/82cSZUIsLrtOYWk.png&#34; alt=&#34;image-20210420145828738&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/R5Fhgz1WXMyUE3s.png&#34; alt=&#34;image-20210420145940576&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="无穷小" />
+        <updated>2021-04-20T06:43:46.522Z</updated>
+    </entry>
     <entry>
         <id>https://isviolet.github.io/2021/04/19/postgraduate-notes/advanced-mathematics/first%20review/Limits%20and%20continuity/</id>
         <title>极限和连续</title>
