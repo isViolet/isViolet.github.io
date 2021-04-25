@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://isViolet.github.io</id>
+    <id>https://isviolet.com</id>
     <title>Violet • Posts by &#34;springboot&#34; tag</title>
-    <link href="https://isViolet.github.io" />
+    <link href="https://isviolet.com" />
     <updated>2021-04-19T07:21:20.451Z</updated>
     <category term="springboot" />
     <category term="极限和连续" />
     <category term="无穷小" />
     <category term="CDC" />
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/3.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88service%EF%BC%89/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/3.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88service%EF%BC%89/</id>
         <title>搭建项目工程（service）</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/3.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88service%EF%BC%89/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/3.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88service%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;一-搭建service模块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-搭建service模块&#34;&gt;#&lt;/a&gt; 一、搭建 service 模块&lt;/h1&gt;
 &lt;h2 id=&#34;1-在父工程guli-parent下面创建模块service&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-在父工程guli-parent下面创建模块service&#34;&gt;#&lt;/a&gt; 1、在父工程 guli-parent 下面创建模块 service&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/09/gtZlkDxICWGTK5n.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
@@ -137,9 +137,9 @@
         <updated>2021-04-19T07:21:20.451Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/2.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88%E7%88%B6%E5%B7%A5%E7%A8%8B%EF%BC%89/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/2.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88%E7%88%B6%E5%B7%A5%E7%A8%8B%EF%BC%89/</id>
         <title>搭建项目工程（父工程）</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/2.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88%E7%88%B6%E5%B7%A5%E7%A8%8B%EF%BC%89/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/2.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88%E7%88%B6%E5%B7%A5%E7%A8%8B%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;一-工程结构介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-工程结构介绍&#34;&gt;#&lt;/a&gt; 一、工程结构介绍&lt;/h1&gt;
 &lt;h2 id=&#34;1-工程结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-工程结构&#34;&gt;#&lt;/a&gt; 1、工程结构&lt;/h2&gt;
 &lt;p&gt;![img](file:///D:/My Knowledge/temp/64fdeecd-89b0-4a0d-993f-13d70adecd5b/128/index_files/592a017b-f501-4359-b92f-8b75875c45f7.png)&lt;/p&gt;
@@ -228,9 +228,9 @@
         <updated>2021-04-19T07:21:20.414Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/1.%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/1.%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
         <title>项目环境搭建</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/1.%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/1.%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
         <content type="html">&lt;h1 id=&#34;一-数据库设计&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-数据库设计&#34;&gt;#&lt;/a&gt; 一、数据库设计&lt;/h1&gt;
 &lt;h2 id=&#34;1-数据库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-数据库&#34;&gt;#&lt;/a&gt; 1、数据库&lt;/h2&gt;
 &lt;p&gt;guli_edu&lt;/p&gt;
@@ -265,9 +265,9 @@
         <updated>2021-04-19T07:21:20.359Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/4.mybatisplus%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/4.mybatisplus%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/</id>
         <title>mybatis-plus条件构造器</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/4.mybatisplus%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/4.mybatisplus%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/"/>
         <content type="html">&lt;h1 id=&#34;一-wapper介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-wapper介绍&#34;&gt;#&lt;/a&gt; &lt;strong&gt;一、wapper 介绍&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/07/xFYwmHkcoTLdOfe.png&#34; alt=&#34;image-20210407220229246&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/07/pIQPfNTF1gVtCie.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
@@ -333,9 +333,9 @@
         <updated>2021-04-19T07:21:20.248Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/3.mybatisplus%E7%9A%84CURD%E6%8E%A5%E5%8F%A3/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/3.mybatisplus%E7%9A%84CURD%E6%8E%A5%E5%8F%A3/</id>
         <title>mybatis-plus CRUD接口</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/3.mybatisplus%E7%9A%84CURD%E6%8E%A5%E5%8F%A3/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/3.mybatisplus%E7%9A%84CURD%E6%8E%A5%E5%8F%A3/"/>
         <content type="html">&lt;h1 id=&#34;一-insert&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-insert&#34;&gt;#&lt;/a&gt; &lt;strong&gt;一、insert&lt;/strong&gt;&lt;/h1&gt;
 &lt;h2 id=&#34;1-插入操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-插入操作&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1、插入操作&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/07/i7zSoHT8ZAjEJln.png&#34; alt=&#34;image-20210407214956526&#34; /&gt;&lt;/p&gt;
@@ -490,9 +490,9 @@ public ISqlInjector sqlInjector() &amp;#123;
         <updated>2021-04-19T07:21:20.118Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/2.mybatisplus%E5%85%A5%E9%97%A8/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/2.mybatisplus%E5%85%A5%E9%97%A8/</id>
         <title>mybatis-plus入门</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/2.mybatisplus%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/2.mybatisplus%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;快速开始参考：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL21wLmJhb21pZG91LmNvbS9ndWlkZS9xdWljay1zdGFydC5odG1s&#34;&gt;http://mp.baomidou.com/guide/quick-start.html&lt;/span&gt;&lt;br /&gt;
  测试项目： mybatis_plus&lt;br /&gt;
@@ -610,9 +610,9 @@ mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
         <updated>2021-04-19T07:21:20.035Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/1.mybatisplus%E7%AE%80%E4%BB%8B/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/1.mybatisplus%E7%AE%80%E4%BB%8B/</id>
         <title>mybatis-plus简介</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/1.mybatisplus%E7%AE%80%E4%BB%8B/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/1.mybatisplus%E7%AE%80%E4%BB%8B/"/>
         <content type="html">&lt;h1 id=&#34;一-简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-简介&#34;&gt;#&lt;/a&gt; 一、简介&lt;/h1&gt;
 &lt;p&gt;官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL21wLmJhb21pZG91LmNvbS8=&#34;&gt;http://mp.baomidou.com/&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;参考教程：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL21wLmJhb21pZG91LmNvbS9ndWlkZS8=&#34;&gt;http://mp.baomidou.com/guide/&lt;/span&gt;&lt;/p&gt;

@@ -1,44 +1,44 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://isViolet.github.io</id>
+    <id>https://isviolet.com</id>
     <title>Violet</title>
-    <link href="https://isViolet.github.io" />
+    <link href="https://isviolet.com" />
     <updated>2021-04-25T09:43:11.710Z</updated>
     <category term="springboot" />
     <category term="极限和连续" />
     <category term="无穷小" />
     <category term="CDC" />
     <entry>
-        <id>https://isviolet.github.io/2021/04/25/university/3-2/CDC/%E4%BA%91%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%202021-04-25/</id>
+        <id>https://isviolet.com/2021/04/25/university/3-2/CDC/%E4%BA%91%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%202021-04-25/</id>
         <title>云数据学习记录 2021-04-25</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/25/university/3-2/CDC/%E4%BA%91%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%202021-04-25/"/>
-        <content type="html">&lt;h1 id=&#34;1-vmware-workstation虚拟网络及排错思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-vmware-workstation虚拟网络及排错思路&#34;&gt;#&lt;/a&gt; 1. vmware workstation 虚拟网络及排错思路&lt;/h1&gt;
-&lt;h2 id=&#34;1-虚拟网络编辑器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-虚拟网络编辑器&#34;&gt;#&lt;/a&gt; 1. 虚拟网络编辑器&lt;/h2&gt;
+        <link rel="alternate" href="https://isviolet.com/2021/04/25/university/3-2/CDC/%E4%BA%91%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%202021-04-25/"/>
+        <content type="html">&lt;h1 id=&#34;vmware-workstation虚拟网络及排错思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vmware-workstation虚拟网络及排错思路&#34;&gt;#&lt;/a&gt; vmware workstation 虚拟网络及排错思路&lt;/h1&gt;
+&lt;h2 id=&#34;虚拟网络编辑器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#虚拟网络编辑器&#34;&gt;#&lt;/a&gt; 虚拟网络编辑器&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/BCHhv7WnuUdEMjb.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;2-虚拟机配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-虚拟机配置&#34;&gt;#&lt;/a&gt; 2. 虚拟机配置&lt;/h2&gt;
+&lt;h2 id=&#34;虚拟机配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#虚拟机配置&#34;&gt;#&lt;/a&gt; 虚拟机配置&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/b48rDdQJFuzsXaA.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;3-网络模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-网络模式&#34;&gt;#&lt;/a&gt; 3. 网络模式&lt;/h2&gt;
+&lt;h2 id=&#34;网络模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#网络模式&#34;&gt;#&lt;/a&gt; 网络模式&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/gHW6c2PFtw9Khzk.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;31-仅主机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#31-仅主机&#34;&gt;#&lt;/a&gt; 3.1 仅主机&lt;/h3&gt;
+&lt;h3 id=&#34;仅主机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#仅主机&#34;&gt;#&lt;/a&gt; 仅主机&lt;/h3&gt;
 &lt;p&gt;虚机仅仅可以连接到物理机&lt;br /&gt;
 &lt;img data-src=&#34;https://i.loli.net/2021/04/25/N78PSVvkxOs4EhG.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
 &lt;strong&gt; 虚拟机是如何连接到物理机的？原因是安装完 vmware 后，会有适配器（网卡），通过虚拟网络和虚拟网卡即可连接。&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;311-连接失败无法ping通&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#311-连接失败无法ping通&#34;&gt;#&lt;/a&gt; 3.1.1 连接失败无法 ping 通&lt;/h4&gt;
+&lt;h4 id=&#34;连接失败无法ping通&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#连接失败无法ping通&#34;&gt;#&lt;/a&gt; 连接失败无法 ping 通&lt;/h4&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/bDPYKcqZuJ9yIao.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;32-nat模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#32-nat模式&#34;&gt;#&lt;/a&gt; 3.2 NAT 模式&lt;/h3&gt;
+&lt;h3 id=&#34;nat模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nat模式&#34;&gt;#&lt;/a&gt; NAT 模式&lt;/h3&gt;
 &lt;p&gt;进入网络编辑器的 NAT 编辑，注意网关最后是 2 不是 1&lt;br /&gt;
 &lt;img data-src=&#34;https://i.loli.net/2021/04/25/GNyiIAmvbS5jPoe.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;33-桥接模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#33-桥接模式&#34;&gt;#&lt;/a&gt; 3.3 桥接模式&lt;/h3&gt;
+&lt;h3 id=&#34;桥接模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#桥接模式&#34;&gt;#&lt;/a&gt; 桥接模式&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;通过物理机，连接到外部的网络，虚拟机可以分配到独立的 ip，直接暴露在网络下，和物理机一样拥有一个 IP 地址&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/eSnAzx3oDdN4Ykj.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
 &lt;strong&gt; 勾选复制物理机连接状态，物理机改变有线和无线，虚拟机的网络也会改变&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;4排错总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4排错总结&#34;&gt;#&lt;/a&gt; 4. 排错总结&lt;/h2&gt;
+&lt;h2 id=&#34;排错总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#排错总结&#34;&gt;#&lt;/a&gt; 排错总结&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/vsSw2pCXGMQ6KAT.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;2关于xshell和ssh等&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2关于xshell和ssh等&#34;&gt;#&lt;/a&gt; 2. 关于 xshell 和 ssh 等&lt;/h1&gt;
-&lt;h2 id=&#34;1xshell远程工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1xshell远程工具&#34;&gt;#&lt;/a&gt; 1.xshell 远程工具&lt;/h2&gt;
-&lt;h3 id=&#34;11登陆&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#11登陆&#34;&gt;#&lt;/a&gt; 1.1 登陆&lt;/h3&gt;
+&lt;h1 id=&#34;关于xshell和ssh等&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于xshell和ssh等&#34;&gt;#&lt;/a&gt; 关于 xshell 和 ssh 等&lt;/h1&gt;
+&lt;h2 id=&#34;xshell远程工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#xshell远程工具&#34;&gt;#&lt;/a&gt; xshell 远程工具&lt;/h2&gt;
+&lt;h3 id=&#34;登陆&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#登陆&#34;&gt;#&lt;/a&gt; 登陆&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;未登录&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -47,36 +47,36 @@
 &lt;li&gt;登陆使用 ssh 协议（不要套娃登陆）&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/ZHc4o2NLU6dBmPM.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;12多会话&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#12多会话&#34;&gt;#&lt;/a&gt; 1.2 多会话&lt;/h3&gt;
+&lt;h3 id=&#34;多会话&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多会话&#34;&gt;#&lt;/a&gt; 多会话&lt;/h3&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/5yqibcNg12rtCSV.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;13新建会话&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#13新建会话&#34;&gt;#&lt;/a&gt; 1.3 新建会话&lt;/h3&gt;
+&lt;h3 id=&#34;新建会话&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新建会话&#34;&gt;#&lt;/a&gt; 新建会话&lt;/h3&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/wtu12GSA4IXMyv5.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;14查看远程连接虚拟机who&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#14查看远程连接虚拟机who&#34;&gt;#&lt;/a&gt; 1.4 查看远程连接虚拟机（who）&lt;/h3&gt;
+&lt;h3 id=&#34;查看远程连接虚拟机who&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看远程连接虚拟机who&#34;&gt;#&lt;/a&gt; 查看远程连接虚拟机（who）&lt;/h3&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/YOVP5NFvahmLysH.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;15远程文件上传&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#15远程文件上传&#34;&gt;#&lt;/a&gt; 1.5 远程文件上传&lt;/h3&gt;
-&lt;h3 id=&#34;16复制粘贴&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#16复制粘贴&#34;&gt;#&lt;/a&gt; 1.6 复制粘贴&lt;/h3&gt;
+&lt;h3 id=&#34;远程文件上传&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#远程文件上传&#34;&gt;#&lt;/a&gt; 远程文件上传&lt;/h3&gt;
+&lt;h3 id=&#34;复制粘贴&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#复制粘贴&#34;&gt;#&lt;/a&gt; 复制粘贴&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;工具 -&amp;gt; 选项 -&amp;gt; 键盘和鼠标&lt;/strong&gt;&lt;br /&gt;
 &lt;img data-src=&#34;https://i.loli.net/2021/04/25/rXwKjT1sctq8deh.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;17看日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#17看日志&#34;&gt;#&lt;/a&gt; 1.7 看日志&lt;/h3&gt;
+&lt;h3 id=&#34;看日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#看日志&#34;&gt;#&lt;/a&gt; 看日志&lt;/h3&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/z1vbfkiaQ9sOgD7.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;3linux命令提示符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3linux命令提示符&#34;&gt;#&lt;/a&gt; 3.Linux 命令提示符&lt;/h1&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;#&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;root表示当前登陆的用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;localhost:主机名&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;whoami：当前用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pwd：当前工作目录&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;useradd&lt;/span&gt; aaa：添加用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;su&lt;/span&gt; - aaa：切换用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$：表示普通用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#：表示 root 用户&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;虚拟机的根目录：/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;4cd命令和tab键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4cd命令和tab键&#34;&gt;#&lt;/a&gt; 4.cd 命令和 Tab 键&lt;/h1&gt;
-&lt;h2 id=&#34;1cd命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1cd命令&#34;&gt;#&lt;/a&gt; 1.cd 命令&lt;/h2&gt;
+&lt;h1 id=&#34;linux命令提示符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux命令提示符&#34;&gt;#&lt;/a&gt; Linux 命令提示符&lt;/h1&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;#&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;root表示当前登陆的用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;localhost:主机名&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;whoami：当前用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pwd：当前工作目录&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;useradd&lt;/span&gt; aaa：添加用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;su&lt;/span&gt; - aaa：切换用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$：表示普通用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#：表示 root 用户&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;虚拟机的根目录：/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;cd命令和tab键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cd命令和tab键&#34;&gt;#&lt;/a&gt; cd 命令和 Tab 键&lt;/h1&gt;
+&lt;h2 id=&#34;cd命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cd命令&#34;&gt;#&lt;/a&gt; cd 命令&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;cd：切换目录&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt; pwd：当前目录&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt; cd -：回到前一次目录&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt; cd ..：回到上一级目录&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt; cd ../..：回到上一级目录的上一级目录&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;除非长期工作在该目录，否则尽量少用 cd&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;2回到家目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2回到家目录&#34;&gt;#&lt;/a&gt; 2. 回到家目录&lt;/h2&gt;
+&lt;h2 id=&#34;回到家目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回到家目录&#34;&gt;#&lt;/a&gt; 回到家目录&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;cd /root/&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;cd ~&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;cd&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;当前目录下有哪些文件可以敲两次 tab，tab 可以自动补齐&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;5ls及常用参数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5ls及常用参数&#34;&gt;#&lt;/a&gt; 5.ls 及常用参数&lt;/h1&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#当前路径下所有非隐藏文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#当前路径下所有文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -a&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#详细信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -l&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#所有文件的详细信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -la&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#按时间排序&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -lt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#查看虚拟机的时间&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;date&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#ls -l 可以写成 ll&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;6文件权限和所有者&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6文件权限和所有者&#34;&gt;#&lt;/a&gt; 6. 文件权限和所有者&lt;/h1&gt;
+&lt;h1 id=&#34;ls及常用参数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ls及常用参数&#34;&gt;#&lt;/a&gt; ls 及常用参数&lt;/h1&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#当前路径下所有非隐藏文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#当前路径下所有文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -a&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#详细信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -l&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#所有文件的详细信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -la&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#按时间排序&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -lt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#查看虚拟机的时间&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;date&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#ls -l 可以写成 ll&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;文件权限和所有者&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件权限和所有者&#34;&gt;#&lt;/a&gt; 文件权限和所有者&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;drw-r--r--&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;d：表示文件夹&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;前三位：所有者的权限&lt;/strong&gt;&lt;br /&gt;
@@ -86,7 +86,7 @@
 **w：可写 2 **&lt;br /&gt;
 &lt;strong&gt;x：可执行 1&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/a5sU481en9WyNKD.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h1 id=&#34;7cp-rm-mv-多敲回车&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#7cp-rm-mv-多敲回车&#34;&gt;#&lt;/a&gt; 7.cp、rm、mv、多敲回车&lt;/h1&gt;
+&lt;h1 id=&#34;cp-rm-mv-多敲回车&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cp-rm-mv-多敲回车&#34;&gt;#&lt;/a&gt; cp、rm、mv、多敲回车&lt;/h1&gt;
 &lt;p&gt;cp：拷贝文件&lt;br /&gt;
  cp -r：拷贝文件及目录&lt;br /&gt;
  rm：删除文件&lt;br /&gt;
@@ -94,13 +94,13 @@
  rm -rf：强制删除&lt;/p&gt;
 &lt;p&gt;移动 123 文件到当前目录并取名 333&lt;br /&gt;
 mv /182/123 ./333&lt;/p&gt;
-&lt;h1 id=&#34;8根目录及其成员粗略介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#8根目录及其成员粗略介绍&#34;&gt;#&lt;/a&gt; 8. 根目录及其成员粗略介绍&lt;/h1&gt;
+&lt;h1 id=&#34;根目录及其成员粗略介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#根目录及其成员粗略介绍&#34;&gt;#&lt;/a&gt; 根目录及其成员粗略介绍&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/KGyIl6wYVFrzhpD.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;9mkdir和touch&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#9mkdir和touch&#34;&gt;#&lt;/a&gt; 9.mkdir 和 touch&lt;/h1&gt;
+&lt;h1 id=&#34;mkdir和touch&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mkdir和touch&#34;&gt;#&lt;/a&gt; mkdir 和 touch&lt;/h1&gt;
 &lt;p&gt;mkdir：创建空目录&lt;br /&gt;
  touch：创建空文件&lt;br /&gt;
  cat，more：查看文件内容&lt;/p&gt;
-&lt;h1 id=&#34;10vi&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#10vi&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovLzEwLnZp&#34;&gt;10.vi&lt;/span&gt;、vim 作用及常见按键&lt;/h1&gt;
+&lt;h1 id=&#34;vi-vim作用及常见按键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vi-vim作用及常见按键&#34;&gt;#&lt;/a&gt; vi、vim 作用及常见按键&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/zdnbqG74IlMsiyr.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
 vim 非编辑下&lt;br /&gt;
 大写的 I：光标移到改行的最左侧&lt;br /&gt;
@@ -119,9 +119,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-25T09:43:11.710Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%206/</id>
+        <id>https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%206/</id>
         <title>无穷小的小结</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%206/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%206/"/>
         <content type="html">&lt;h1 id=&#34;小结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#小结&#34;&gt;#&lt;/a&gt; 小结&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/xkQjO5IoZsD3aUl.png&#34; alt=&#34;image-20210420154152563&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/sp6YqhCct98MUuB.png&#34; alt=&#34;image-20210420154203375&#34; /&gt;&lt;/p&gt;
@@ -131,9 +131,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-20T07:40:29.835Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%205/</id>
+        <id>https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%205/</id>
         <title>无穷小的例题</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%205/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%205/"/>
         <content type="html">&lt;h1 id=&#34;例题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#例题&#34;&gt;#&lt;/a&gt; 例题&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/gMsNxOHY41nmyFD.png&#34; alt=&#34;image-20210420152230715&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/zcO1diBYqsToGPS.png&#34; alt=&#34;image-20210420152449953&#34; /&gt;&lt;/p&gt;
@@ -153,9 +153,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-20T07:17:57.826Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%204/</id>
+        <id>https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%204/</id>
         <title>常用的等价无穷小</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%204/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%204/"/>
         <content type="html">&lt;h1 id=&#34;常用的等价无穷小&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用的等价无穷小&#34;&gt;#&lt;/a&gt; 常用的等价无穷小&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/JcBfyWCVRlPrQNU.png&#34; alt=&#34;image-20210420151442170&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意&lt;/span&gt;&lt;/p&gt;
@@ -170,9 +170,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-20T07:12:43.185Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%203/</id>
+        <id>https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%203/</id>
         <title>无穷小的定理</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%203/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%203/"/>
         <content type="html">&lt;h1 id=&#34;无穷小的定理1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无穷小的定理1&#34;&gt;#&lt;/a&gt; 无穷小的定理 1&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/UpfCWSjdqG1Y2em.png&#34; alt=&#34;image-20210420150644854&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/eE8NC34Zn2FzWk5.png&#34; alt=&#34;image-20210420150743416&#34; /&gt;&lt;/p&gt;
@@ -184,9 +184,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-20T07:05:43.035Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%202/</id>
+        <id>https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%202/</id>
         <title>无穷小的性质</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%202/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%202/"/>
         <content type="html">&lt;h1 id=&#34;性质&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#性质&#34;&gt;#&lt;/a&gt; 性质&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/xBEc9Jb2D87rCGK.png&#34; alt=&#34;image-20210420150136975&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/wUxjLGAe53vuRH9.png&#34; alt=&#34;image-20210420150247327&#34; /&gt;&lt;/p&gt;
@@ -196,9 +196,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-20T07:00:26.571Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%201/</id>
+        <id>https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%201/</id>
         <title>无穷小的定义</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%201/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/20/postgraduate-notes/advanced-mathematics/first%20review/chapter%207/Comparison%20of%20the%20infinitely%20small%201/"/>
         <content type="html">&lt;h1 id=&#34;回顾&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回顾&#34;&gt;#&lt;/a&gt; 回顾&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;两个无穷小的和，差，积仍是无穷小&lt;/li&gt;
@@ -220,9 +220,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-20T06:43:46.522Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/postgraduate-notes/advanced-mathematics/first%20review/Limits%20and%20continuity/</id>
+        <id>https://isviolet.com/2021/04/19/postgraduate-notes/advanced-mathematics/first%20review/Limits%20and%20continuity/</id>
         <title>极限和连续</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/postgraduate-notes/advanced-mathematics/first%20review/Limits%20and%20continuity/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/postgraduate-notes/advanced-mathematics/first%20review/Limits%20and%20continuity/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;学习资料：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05pa2tpZG9vZy9hcnRpY2xlL2RldGFpbHMvMTA2NzgwOTM0&#34;&gt;https://blog.csdn.net/Nikkidoog/article/details/106780934&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -304,9 +304,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-19T12:52:21.573Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/3.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88service%EF%BC%89/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/3.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88service%EF%BC%89/</id>
         <title>搭建项目工程（service）</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/3.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88service%EF%BC%89/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/3.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88service%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;一-搭建service模块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-搭建service模块&#34;&gt;#&lt;/a&gt; 一、搭建 service 模块&lt;/h1&gt;
 &lt;h2 id=&#34;1-在父工程guli-parent下面创建模块service&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-在父工程guli-parent下面创建模块service&#34;&gt;#&lt;/a&gt; 1、在父工程 guli-parent 下面创建模块 service&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/09/gtZlkDxICWGTK5n.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
@@ -432,9 +432,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-19T07:21:20.451Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/2.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88%E7%88%B6%E5%B7%A5%E7%A8%8B%EF%BC%89/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/2.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88%E7%88%B6%E5%B7%A5%E7%A8%8B%EF%BC%89/</id>
         <title>搭建项目工程（父工程）</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/2.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88%E7%88%B6%E5%B7%A5%E7%A8%8B%EF%BC%89/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/2.%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%B7%A5%E7%A8%8B%EF%BC%88%E7%88%B6%E5%B7%A5%E7%A8%8B%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;一-工程结构介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-工程结构介绍&#34;&gt;#&lt;/a&gt; 一、工程结构介绍&lt;/h1&gt;
 &lt;h2 id=&#34;1-工程结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-工程结构&#34;&gt;#&lt;/a&gt; 1、工程结构&lt;/h2&gt;
 &lt;p&gt;![img](file:///D:/My Knowledge/temp/64fdeecd-89b0-4a0d-993f-13d70adecd5b/128/index_files/592a017b-f501-4359-b92f-8b75875c45f7.png)&lt;/p&gt;
@@ -523,9 +523,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-19T07:21:20.414Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/1.%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/1.%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
         <title>项目环境搭建</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/1.%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/2.Environment%20building%20and%20instructor%20interface%20development/1.%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
         <content type="html">&lt;h1 id=&#34;一-数据库设计&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-数据库设计&#34;&gt;#&lt;/a&gt; 一、数据库设计&lt;/h1&gt;
 &lt;h2 id=&#34;1-数据库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-数据库&#34;&gt;#&lt;/a&gt; 1、数据库&lt;/h2&gt;
 &lt;p&gt;guli_edu&lt;/p&gt;
@@ -560,9 +560,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-19T07:21:20.359Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/4.mybatisplus%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/4.mybatisplus%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/</id>
         <title>mybatis-plus条件构造器</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/4.mybatisplus%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/4.mybatisplus%E6%9D%A1%E4%BB%B6%E6%9E%84%E9%80%A0%E5%99%A8/"/>
         <content type="html">&lt;h1 id=&#34;一-wapper介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-wapper介绍&#34;&gt;#&lt;/a&gt; &lt;strong&gt;一、wapper 介绍&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/07/xFYwmHkcoTLdOfe.png&#34; alt=&#34;image-20210407220229246&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/07/pIQPfNTF1gVtCie.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
@@ -628,9 +628,9 @@ vim 非编辑下&lt;br /&gt;
         <updated>2021-04-19T07:21:20.248Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/3.mybatisplus%E7%9A%84CURD%E6%8E%A5%E5%8F%A3/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/3.mybatisplus%E7%9A%84CURD%E6%8E%A5%E5%8F%A3/</id>
         <title>mybatis-plus CRUD接口</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/3.mybatisplus%E7%9A%84CURD%E6%8E%A5%E5%8F%A3/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/3.mybatisplus%E7%9A%84CURD%E6%8E%A5%E5%8F%A3/"/>
         <content type="html">&lt;h1 id=&#34;一-insert&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-insert&#34;&gt;#&lt;/a&gt; &lt;strong&gt;一、insert&lt;/strong&gt;&lt;/h1&gt;
 &lt;h2 id=&#34;1-插入操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-插入操作&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1、插入操作&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/07/i7zSoHT8ZAjEJln.png&#34; alt=&#34;image-20210407214956526&#34; /&gt;&lt;/p&gt;
@@ -785,9 +785,9 @@ public ISqlInjector sqlInjector() &amp;#123;
         <updated>2021-04-19T07:21:20.118Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/2.mybatisplus%E5%85%A5%E9%97%A8/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/2.mybatisplus%E5%85%A5%E9%97%A8/</id>
         <title>mybatis-plus入门</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/2.mybatisplus%E5%85%A5%E9%97%A8/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/2.mybatisplus%E5%85%A5%E9%97%A8/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;快速开始参考：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL21wLmJhb21pZG91LmNvbS9ndWlkZS9xdWljay1zdGFydC5odG1s&#34;&gt;http://mp.baomidou.com/guide/quick-start.html&lt;/span&gt;&lt;br /&gt;
  测试项目： mybatis_plus&lt;br /&gt;
@@ -905,9 +905,9 @@ mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
         <updated>2021-04-19T07:21:20.035Z</updated>
     </entry>
     <entry>
-        <id>https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/1.mybatisplus%E7%AE%80%E4%BB%8B/</id>
+        <id>https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/1.mybatisplus%E7%AE%80%E4%BB%8B/</id>
         <title>mybatis-plus简介</title>
-        <link rel="alternate" href="https://isviolet.github.io/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/1.mybatisplus%E7%AE%80%E4%BB%8B/"/>
+        <link rel="alternate" href="https://isviolet.com/2021/04/19/technology-study/SpringBoot/1.Introduction%20to%20the%20project%20and%20mybatis-plus%20introductory/02mybatisplus%E5%85%A5%E9%97%A8/1.mybatisplus%E7%AE%80%E4%BB%8B/"/>
         <content type="html">&lt;h1 id=&#34;一-简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-简介&#34;&gt;#&lt;/a&gt; 一、简介&lt;/h1&gt;
 &lt;p&gt;官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL21wLmJhb21pZG91LmNvbS8=&#34;&gt;http://mp.baomidou.com/&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;参考教程：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL21wLmJhb21pZG91LmNvbS9ndWlkZS8=&#34;&gt;http://mp.baomidou.com/guide/&lt;/span&gt;&lt;/p&gt;
