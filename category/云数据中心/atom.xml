@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://isviolet.com</id>
+    <id>https://isviolet.github.io</id>
     <title>Violet • Posts by &#34;云数据中心&#34; category</title>
-    <link href="https://isviolet.com" />
+    <link href="https://isviolet.github.io" />
     <updated>2021-04-25T09:43:11.710Z</updated>
     <category term="极限和连续" />
     <category term="springboot" />
     <category term="CDC" />
     <category term="无穷小" />
     <entry>
-        <id>https://isviolet.com/2021/04/25/university/3-2/CDC/%E4%BA%91%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%202021-04-25/</id>
+        <id>https://isviolet.github.io/p/37704.html</id>
         <title>云数据学习记录 2021-04-25</title>
-        <link rel="alternate" href="https://isviolet.com/2021/04/25/university/3-2/CDC/%E4%BA%91%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%202021-04-25/"/>
+        <link rel="alternate" href="https://isviolet.github.io/p/37704.html"/>
         <content type="html">&lt;h1 id=&#34;vmware-workstation虚拟网络及排错思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vmware-workstation虚拟网络及排错思路&#34;&gt;#&lt;/a&gt; vmware workstation 虚拟网络及排错思路&lt;/h1&gt;
 &lt;h2 id=&#34;虚拟网络编辑器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#虚拟网络编辑器&#34;&gt;#&lt;/a&gt; 虚拟网络编辑器&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/BCHhv7WnuUdEMjb.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;

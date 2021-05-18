@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Violet • Posts by &#34;云数据中心&#34; category</title>
-        <link>https://isviolet.com</link>
+        <link>https://isviolet.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Sun, 25 Apr 2021 17:43:11 +0800</pubDate>
@@ -12,9 +12,9 @@
         <category>CDC</category>
         <category>无穷小</category>
         <item>
-            <guid isPermalink="true">https://isviolet.com/2021/04/25/university/3-2/CDC/%E4%BA%91%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%202021-04-25/</guid>
+            <guid isPermalink="true">https://isviolet.github.io/p/37704.html</guid>
             <title>云数据学习记录 2021-04-25</title>
-            <link>https://isviolet.com/2021/04/25/university/3-2/CDC/%E4%BA%91%E6%95%B0%E6%8D%AE%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%202021-04-25/</link>
+            <link>https://isviolet.github.io/p/37704.html</link>
             <category>CDC</category>
             <pubDate>Sun, 25 Apr 2021 17:43:11 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;vmware-workstation虚拟网络及排错思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vmware-workstation虚拟网络及排错思路&#34;&gt;#&lt;/a&gt; vmware workstation 虚拟网络及排错思路&lt;/h1&gt;
