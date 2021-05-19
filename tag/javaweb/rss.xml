@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Violet • Posts by &#34;javaweb&#34; tag</title>
+        <link>https://isviolet.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 18 May 2021 20:39:03 +0800</pubDate>
+        <lastBuildDate>Tue, 18 May 2021 20:39:03 +0800</lastBuildDate>
+        <category>极限和连续</category>
+        <category>springboot</category>
+        <category>CDC</category>
+        <category>无穷小</category>
+        <category>JAVAWEB</category>
+        <category>unity3D</category>
+        <category>Android</category>
+        <category>bug</category>
+        <category>linux</category>
+        <category>JAVA开发手册</category>
+        <category>JAVA</category>
+        <category>HTTP</category>
+        <category>栈</category>
+        <category>python</category>
+        <category>爬虫</category>
+        <category>线性表</category>
+        <category>数据库</category>
+        <item>
+            <guid isPermalink="true">https://isviolet.github.io/p/40427726.html</guid>
+            <title>如何将java web项目上线部署到公网</title>
+            <link>https://isviolet.github.io/p/40427726.html</link>
+            <category>JAVAWEB</category>
+            <pubDate>Tue, 18 May 2021 20:39:03 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;关于如何将 java web 上线，部署到公网，让全世界的人都可以访问的问题。小编将作出系列化，完整的流程介绍。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在 myeclipse 中开发好项目，打包成 war 格式，不会的同学参考以下 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3poaWRhby5iYWlkdS5jb20vbGlua3VybD1HYjBPVjlwSGlEdEpyOG55alByblNBNjVnNDlJNFRFQW4yTjNwd1hzeHpWc0NhWDBnSjhSUVpIUTJHbURybWRNMGx0b0JkQ1BZRXRUMWlTYXdjZWRjSw==&#34;&gt;http://zhidao.baidu.com/linkurl=Gb0OV9pHiDtJr8nyjPrnSA65g49I4TEAn2N3pwXsxzVsCaX0gJ8RQZHQ2GmDrmdM0ltoBdCPYEtT1iSawcedcK&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;购买云服务器，建议去阿里云购买（ecs），教程如下 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ppbmd5YW4uYmFpZHUuY29tL2FydGljbGUvNGU1YjNlMTk1YWU2OGE5MTkwMWUyNDAyLmh0bWw=&#34;&gt;http://jingyan.baidu.com/article/4e5b3e195ae68a91901e2402.html&lt;/span&gt; 以上教程的最后一步远程连接不用看，下面再说远程连接的事，只需买到一个阿里云服务器就行了 注：解释一下什么是云服务器。就是另一台电脑，该电脑永不关机，永不断网。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;登录你的阿里云服务器，以下是教程 3.1 购买 linux 系统的阿里云服务器：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ppbmd5YW4uYmFpZHUuY29tL2FydGljbGUvODRiNGY1NjVmM2Q5OTI2MGY3ZGEzMjcxLmh0bWw=&#34;&gt;http://jingyan.baidu.com/article/84b4f565f3d99260f7da3271.html&lt;/span&gt; 3.2 购买 windows（win2012 为例）的阿里云服务器：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5pbWFveWUuY29tL2FydGljbGUvYWxpeXVuRUNTLmh0bWwlRUYlQkMlODglRTglQUYlQTUlRTYlOTUlOTklRTclQTglOEIlRTglQUYlQjQlRTclOUElODQlRTYlOTglQUYlRTglQkYlOUMlRTclQTglOEIlRTglQkYlOUUlRTYlOEUlQTUlRTclOUElODQlRTklOTclQUUlRTklQTIlOTglRUYlQkMlOEMlRTQlQkQlODYlRTYlOTglQUYlRTclOTklQkIlRTUlQkQlOTUlRTUlOEMlODUlRTUlOTAlQUIlRTUlOUMlQTglRTUlODYlODUlRUYlQkMlOEMlRTUlOEYlQUYlRTQlQjglOEQlRTclOTAlODYlRTQlQkMlOUElRTUlODklOEQlRTQlQjglQTQlRTQlQjglQUElRTUlOUIlQkUlRUYlQkMlODk=&#34;&gt;http://www.imaoye.com/article/aliyunECS.html（该教程说的是远程连接的问题，但是登录包含在内，可不理会前两个图）&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;远程连接（以 windows 为例，因为 windows 相对比较适合新手） &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ppbmd5YW4uYmFpZHUuY29tL2FydGljbGUvY2Q0YzI5NzkxNGJlMWU3NTZlNmU2MGMzLmh0bWw=&#34;&gt;http://jingyan.baidu.com/article/cd4c297914be1e756e6e60c3.html&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;配置 java web 环境（以 windows 为例，因为 windows 相对比较适合新手）&lt;/p&gt;
+&lt;p&gt;5.1 在你成功连接阿里云服务器后，windows 系统有个图形界面，他已经有一个 ie，你可以下载 jdk，tomcat 和 mysql，然后安装和配置环境变量（安装就不说了，对学 java web 的同学太简单）期间你可能遇到一些问题，比如 ie 跟你电脑的 ie 不一样，服务器的 ie 收到安全的防护，很多东西（链接）都不能下载，这个没办法，只能一个一个试。&lt;/p&gt;
+&lt;p&gt;5.2 当然如果想偷懒，可以不下载，直接将你电脑的 jdk，tomcat，mysql 复制粘贴到服务器，没错！这就是远程连接的好处，可以直接操作（小编也不知道为什么）&lt;/p&gt;
+&lt;p&gt;5.3 注意：mysql 数据库的数据可以自己再敲一遍，也可以从本地的 mysql 导出来，复制到服务器里面，再导进服务器的 mysql。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;发布项目&lt;/p&gt;
+&lt;p&gt;在你的本地电脑的浏览器打开，输入 http://ip:8080/，其中 http:// 是固定写法，ip 为你买的阿里云服务器的外网 ip，8080 是你 tomcat 的端口号。回车，会看到 tomcat 的界面，其中有个 tomcat Manager 点以下，界面会提示输入你服务器 t 的 omcat 的用户和密码（在安装时会提示创建用户，没创建的卸载重装再创建，一定要有一个用户），输入后进入 tomcat 的另一个界面，点击一个 “浏览” 的按钮 (该界面只有一个中文按钮)，选中第一步的 war 文件，然后点击按钮下的 “Deploy” 按钮，几秒后，界面会刷新。&lt;/p&gt;
+&lt;p&gt;刷新后，你可以在任何有网络的电脑输入：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2lwOjgwODAvYXBwbGljYXRpb24v&#34;&gt;http://ip:8080/application/&lt;/span&gt;.....（该 url 跟你在开发项目是的 url 是一样的，只是把 localhost 换成服务器的 ip），就可以访问你的项目了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;此时，你可以访问，但是访问路径不像人家：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5iYWlkdS5jb20=&#34;&gt;www.baidu.com&lt;/span&gt;，.com/.cn/.net/... 的叫域名，你需要一个域名来代替你的 http://ip:8080/...... 7.1 买域名，还在阿里云买。教程：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ppbmd5YW4uYmFpZHUuY29tL2FydGljbGUvYWI2OWIyNzBkYzkxNDkyY2E3MTg5ZjAzLmh0bWw=&#34;&gt;http://jingyan.baidu.com/article/ab69b270dc91492ca7189f03.html&lt;/span&gt; 7.2 域名备案。教程：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ppbmd5YW4uYmFpZHUuY29tL2FydGljbGUvOTI1ZjhjYjgxNzZhNDljMGRkZTA1NmM2Lmh0bWw=&#34;&gt;http://jingyan.baidu.com/article/925f8cb8176a49c0dde056c6.html&lt;/span&gt; 7.3 域名解析。教程：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ppbmd5YW4uYmFpZHUuY29tL2FydGljbGUvNjc2NjI5OTczZjk2ZjQ1NGQ1MWI4NDliLmh0bWw=&#34;&gt;http://jingyan.baidu.com/article/676629973f96f454d51b849b.html&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;解析后就玩完了&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;至此，你就可以在有网络下访问你的网站（项目）&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
