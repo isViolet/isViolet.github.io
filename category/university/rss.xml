@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Violet • Posts by &#34;university&#34; category</title>
+        <link>https://isviolet.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Sun, 25 Apr 2021 17:43:11 +0800</pubDate>
+        <lastBuildDate>Sun, 25 Apr 2021 17:43:11 +0800</lastBuildDate>
+        <category>Android</category>
+        <category>springboot</category>
+        <category>JAVAWEB</category>
+        <category>unity3D</category>
+        <category>bug</category>
+        <category>linux</category>
+        <category>极限和连续</category>
+        <category>HTTP</category>
+        <category>python</category>
+        <category>爬虫</category>
+        <category>栈</category>
+        <category>线性表</category>
+        <category>JAVA</category>
+        <category>CDC</category>
+        <category>JAVA开发手册</category>
+        <category>无穷小</category>
+        <category>数据库</category>
+        <item>
+            <guid isPermalink="true">https://isviolet.github.io/p/37704.html</guid>
+            <title>云数据学习记录 2021-04-25</title>
+            <link>https://isviolet.github.io/p/37704.html</link>
+            <category>CDC</category>
+            <pubDate>Sun, 25 Apr 2021 17:43:11 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;vmware-workstation虚拟网络及排错思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vmware-workstation虚拟网络及排错思路&#34;&gt;#&lt;/a&gt; vmware workstation 虚拟网络及排错思路&lt;/h1&gt;
+&lt;h2 id=&#34;虚拟网络编辑器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#虚拟网络编辑器&#34;&gt;#&lt;/a&gt; 虚拟网络编辑器&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/BCHhv7WnuUdEMjb.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;虚拟机配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#虚拟机配置&#34;&gt;#&lt;/a&gt; 虚拟机配置&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/b48rDdQJFuzsXaA.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;网络模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#网络模式&#34;&gt;#&lt;/a&gt; 网络模式&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/gHW6c2PFtw9Khzk.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;仅主机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#仅主机&#34;&gt;#&lt;/a&gt; 仅主机&lt;/h3&gt;
+&lt;p&gt;虚机仅仅可以连接到物理机&lt;br /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2021/04/25/N78PSVvkxOs4EhG.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
+&lt;strong&gt; 虚拟机是如何连接到物理机的？原因是安装完 vmware 后，会有适配器（网卡），通过虚拟网络和虚拟网卡即可连接。&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;连接失败无法ping通&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#连接失败无法ping通&#34;&gt;#&lt;/a&gt; 连接失败无法 ping 通&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/bDPYKcqZuJ9yIao.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;nat模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nat模式&#34;&gt;#&lt;/a&gt; NAT 模式&lt;/h3&gt;
+&lt;p&gt;进入网络编辑器的 NAT 编辑，注意网关最后是 2 不是 1&lt;br /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2021/04/25/GNyiIAmvbS5jPoe.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;桥接模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#桥接模式&#34;&gt;#&lt;/a&gt; 桥接模式&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通过物理机，连接到外部的网络，虚拟机可以分配到独立的 ip，直接暴露在网络下，和物理机一样拥有一个 IP 地址&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/eSnAzx3oDdN4Ykj.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
+&lt;strong&gt; 勾选复制物理机连接状态，物理机改变有线和无线，虚拟机的网络也会改变&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;排错总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#排错总结&#34;&gt;#&lt;/a&gt; 排错总结&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/vsSw2pCXGMQ6KAT.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;关于xshell和ssh等&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于xshell和ssh等&#34;&gt;#&lt;/a&gt; 关于 xshell 和 ssh 等&lt;/h1&gt;
+&lt;h2 id=&#34;xshell远程工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#xshell远程工具&#34;&gt;#&lt;/a&gt; xshell 远程工具&lt;/h2&gt;
+&lt;h3 id=&#34;登陆&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#登陆&#34;&gt;#&lt;/a&gt; 登陆&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;未登录&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/R3NbzdE7GAmDwUu.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;登陆使用 ssh 协议（不要套娃登陆）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/ZHc4o2NLU6dBmPM.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;多会话&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多会话&#34;&gt;#&lt;/a&gt; 多会话&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/5yqibcNg12rtCSV.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;新建会话&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新建会话&#34;&gt;#&lt;/a&gt; 新建会话&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/wtu12GSA4IXMyv5.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;查看远程连接虚拟机who&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看远程连接虚拟机who&#34;&gt;#&lt;/a&gt; 查看远程连接虚拟机（who）&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/YOVP5NFvahmLysH.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;远程文件上传&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#远程文件上传&#34;&gt;#&lt;/a&gt; 远程文件上传&lt;/h3&gt;
+&lt;h3 id=&#34;复制粘贴&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#复制粘贴&#34;&gt;#&lt;/a&gt; 复制粘贴&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;工具 -&amp;gt; 选项 -&amp;gt; 键盘和鼠标&lt;/strong&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://i.loli.net/2021/04/25/rXwKjT1sctq8deh.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;看日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#看日志&#34;&gt;#&lt;/a&gt; 看日志&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/z1vbfkiaQ9sOgD7.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;linux命令提示符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux命令提示符&#34;&gt;#&lt;/a&gt; Linux 命令提示符&lt;/h1&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;#&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;root表示当前登陆的用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;localhost:主机名&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;whoami：当前用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pwd：当前工作目录&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;useradd&lt;/span&gt; aaa：添加用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;su&lt;/span&gt; - aaa：切换用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$：表示普通用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#：表示 root 用户&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;虚拟机的根目录：/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;cd命令和tab键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cd命令和tab键&#34;&gt;#&lt;/a&gt; cd 命令和 Tab 键&lt;/h1&gt;
+&lt;h2 id=&#34;cd命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cd命令&#34;&gt;#&lt;/a&gt; cd 命令&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;cd：切换目录&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt; pwd：当前目录&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt; cd -：回到前一次目录&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt; cd ..：回到上一级目录&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt; cd ../..：回到上一级目录的上一级目录&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;除非长期工作在该目录，否则尽量少用 cd&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;回到家目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回到家目录&#34;&gt;#&lt;/a&gt; 回到家目录&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;cd /root/&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cd ~&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cd&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;当前目录下有哪些文件可以敲两次 tab，tab 可以自动补齐&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;ls及常用参数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ls及常用参数&#34;&gt;#&lt;/a&gt; ls 及常用参数&lt;/h1&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#当前路径下所有非隐藏文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#当前路径下所有文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -a&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#详细信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -l&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#所有文件的详细信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -la&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#按时间排序&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -lt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#查看虚拟机的时间&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;date&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#ls -l 可以写成 ll&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;文件权限和所有者&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件权限和所有者&#34;&gt;#&lt;/a&gt; 文件权限和所有者&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;drw-r--r--&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;d：表示文件夹&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;前三位：所有者的权限&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;中间三位：所有者所在组的其它用户的权限&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;后三位：其他组的权限&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt; r：可读 4&lt;/strong&gt;&lt;br /&gt;
+**w：可写 2 **&lt;br /&gt;
+&lt;strong&gt;x：可执行 1&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/a5sU481en9WyNKD.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;cp-rm-mv-多敲回车&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cp-rm-mv-多敲回车&#34;&gt;#&lt;/a&gt; cp、rm、mv、多敲回车&lt;/h1&gt;
+&lt;p&gt;cp：拷贝文件&lt;br /&gt;
+ cp -r：拷贝文件及目录&lt;br /&gt;
+ rm：删除文件&lt;br /&gt;
+ rm -r：删除目录及文件&lt;br /&gt;
+ rm -rf：强制删除&lt;/p&gt;
+&lt;p&gt;移动 123 文件到当前目录并取名 333&lt;br /&gt;
+mv /182/123 ./333&lt;/p&gt;
+&lt;h1 id=&#34;根目录及其成员粗略介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#根目录及其成员粗略介绍&#34;&gt;#&lt;/a&gt; 根目录及其成员粗略介绍&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/KGyIl6wYVFrzhpD.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;mkdir和touch&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mkdir和touch&#34;&gt;#&lt;/a&gt; mkdir 和 touch&lt;/h1&gt;
+&lt;p&gt;mkdir：创建空目录&lt;br /&gt;
+ touch：创建空文件&lt;br /&gt;
+ cat，more：查看文件内容&lt;/p&gt;
+&lt;h1 id=&#34;vi-vim作用及常见按键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vi-vim作用及常见按键&#34;&gt;#&lt;/a&gt; vi、vim 作用及常见按键&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/zdnbqG74IlMsiyr.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
+vim 非编辑下&lt;br /&gt;
+大写的 I：光标移到改行的最左侧&lt;br /&gt;
+ o：光标向下插入一行&lt;br /&gt;
+大写的 O：向上插入一行&lt;br /&gt;
+ gg：光标跳到文件最顶部&lt;br /&gt;
+ G：光标跳到文件最底部&lt;br /&gt;
+ yy：复制该行&lt;br /&gt;
+ p：粘贴&lt;br /&gt;
+ dd：删除该行&lt;br /&gt;
+ u：撤销&lt;br /&gt;
+ x：删除某个字符&lt;br /&gt;
+ s：删除某个字符并且进入编辑模式&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
