@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Violet • Posts by &#34;java&#34; category</title>
+        <link>https://isviolet.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 18 May 2021 20:24:25 +0800</pubDate>
+        <lastBuildDate>Tue, 18 May 2021 20:24:25 +0800</lastBuildDate>
+        <category>Android</category>
+        <category>JAVAWEB</category>
+        <category>springboot</category>
+        <category>unity3D</category>
+        <category>极限和连续</category>
+        <category>HTTP</category>
+        <category>CDC</category>
+        <category>bug</category>
+        <category>linux</category>
+        <category>python</category>
+        <category>爬虫</category>
+        <category>线性表</category>
+        <category>JAVA</category>
+        <category>栈</category>
+        <category>JAVA开发手册</category>
+        <category>无穷小</category>
+        <category>数据库</category>
+        <item>
+            <guid isPermalink="true">https://isviolet.github.io/p/f5608694.html</guid>
+            <title>java获取网络图片的宽和高</title>
+            <link>https://isviolet.github.io/p/f5608694.html</link>
+            <category>JAVA</category>
+            <pubDate>Tue, 18 May 2021 20:24:25 +0800</pubDate>
+            <description><![CDATA[ &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/**&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     * 获取网络图片的宽和高&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     * @param url&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     * @return&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;getWidthAndHeight&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; url&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;try&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;InputStream&lt;/span&gt; is &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;URL&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;url&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;openStream&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token class-name&#34;&gt;BufferedImage&lt;/span&gt; sourceImg &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;ImageIO&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;read&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;is&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; width &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; sourceImg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;getWidth&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; height &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; sourceImg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;getHeight&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; width&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;*&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;height&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;IOException&lt;/span&gt; e&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            log&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;error&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;获取图片宽高失败&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            e&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;printStackTrace&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://isviolet.github.io/p/518e9178.html</guid>
+            <title>Java 基础语法</title>
+            <link>https://isviolet.github.io/p/518e9178.html</link>
+            <category>JAVA</category>
+            <pubDate>Tue, 18 May 2021 20:10:29 +0800</pubDate>
+            <description><![CDATA[ &lt;h3 id=&#34;java-基础语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java-基础语法&#34;&gt;#&lt;/a&gt; Java 基础语法&lt;/h3&gt;
+&lt;p&gt;一个 Java 程序可以认为是一系列对象的集合，而这些对象通过调用彼此的方法来协同工作。下面简要介绍下类、对象、方法和实例变量的概念。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对象：&lt;strong&gt;对象是类的一个实例&lt;/strong&gt;，有状态和行为。例如，一条狗是一个对象，它的状态有：颜色、名字、品种；行为有：摇尾巴、叫、吃等。&lt;/li&gt;
+&lt;li&gt;类：类是一个&lt;strong&gt;模板&lt;/strong&gt;，它描述一类对象的行为和状态。&lt;/li&gt;
+&lt;li&gt;方法：&lt;strong&gt;方法就是行为&lt;/strong&gt;，一个类可以有很多方法。逻辑运算、数据修改以及所有动作都是在方法中完成的。&lt;/li&gt;
+&lt;li&gt;实例变量：每个&lt;strong&gt;对象都有独特的实例变量&lt;/strong&gt;，对象的状态由这些&lt;strong&gt;实例变量的值&lt;/strong&gt;决定。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;第一个java程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一个java程序&#34;&gt;#&lt;/a&gt; 第一个 Java 程序&lt;/h3&gt;
+&lt;p&gt;下面看一个简单的 Java 程序，它将打印字符串 Hello World&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;HelloWorld&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;/* 第一个 Java 程序&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     * 它将打印字符串 Hello World&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello World&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 打印 Hello World&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;基本语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本语法&#34;&gt;#&lt;/a&gt; 基本语法&lt;/h3&gt;
+&lt;p&gt;编写 Java 程序时，应注意以下几点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;大小写敏感&lt;/strong&gt;：Java 是大小写敏感的，这就意味着标识符 Hello 与 hello 是不同的。&lt;/li&gt;
+&lt;li&gt;类名：对于所有的类来说，&lt;strong&gt;类名的首字母应该大写。如果类名由若干单词组成，那么每个单词的首字母应该大写，例如 MyFirstJavaClass&lt;/strong&gt; 。&lt;/li&gt;
+&lt;li&gt;方法名：&lt;strong&gt;所有的方法名都应该以小写字母开头&lt;/strong&gt;。&lt;strong&gt;如果方法名含有若干单词，则后面的每个单词首字母大写。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。&lt;/li&gt;
+&lt;li&gt;主方法入口：所有的 Java 程序由 public static void main (String [] args) 方法开始执行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;java-标识符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java-标识符&#34;&gt;#&lt;/a&gt; Java 标识符&lt;/h3&gt;
+&lt;p&gt;Java 所有的组成部分都需要名字。类名、变量名以及方法名都被称为标识符。&lt;/p&gt;
+&lt;p&gt;关于 Java 标识符，有以下几点需要注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所有的标识符都应该以字母（A-Z 或者 a-z）, 美元符（$）、或者下划线（_）开始&lt;/li&gt;
+&lt;li&gt;首字符之后可以是字母（A-Z 或者 a-z）, 美元符（$）、下划线（_）或数字的任何字符组合&lt;/li&gt;
+&lt;li&gt;关键字不能用作标识符&lt;/li&gt;
+&lt;li&gt;标识符是大小写敏感的&lt;/li&gt;
+&lt;li&gt;合法标识符举例：age、$salary、_value、__1_value&lt;/li&gt;
+&lt;li&gt;非法标识符举例：123abc、-salary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;java修饰符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java修饰符&#34;&gt;#&lt;/a&gt; Java 修饰符&lt;/h3&gt;
+&lt;p&gt;像其他语言一样，Java 可以使用修饰符来修饰类中方法和属性。主要有两类修饰符：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;访问控制修饰符 : default, public , protected, private&lt;/li&gt;
+&lt;li&gt;非访问控制修饰符 : final, abstract, static, synchronized&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;java-变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java-变量&#34;&gt;#&lt;/a&gt; Java 变量&lt;/h3&gt;
+&lt;p&gt;java 中主要有如下几种类型的变量&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;局部变量&lt;/li&gt;
+&lt;li&gt;类变量（静态变量）&lt;/li&gt;
+&lt;li&gt;成员变量（非静态变量）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;java-数组&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java-数组&#34;&gt;#&lt;/a&gt; Java 数组&lt;/h3&gt;
+&lt;p&gt;数组是储存在堆上的对象，可以保存多个同类型变量。在后面的章节中，我们将会学到如何声明、构造以及初始化一个数组。&lt;/p&gt;
+&lt;h3 id=&#34;java-枚举&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java-枚举&#34;&gt;#&lt;/a&gt; Java 枚举&lt;/h3&gt;
+&lt;p&gt;Java 5.0 引入了枚举，枚举限制变量只能是预先设定好的值。使用枚举可以减少代码中的 bug。&lt;/p&gt;
+&lt;p&gt;例如，我们为果汁店设计一个程序，它将限制果汁为小杯、中杯、大杯。这就意味着它不允许顾客点除了这三种尺寸外的果汁。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;FreshJuice&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;enum&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;FreshJuiceSize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; SMALL&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; MEDIUM &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; LARGE &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token class-name&#34;&gt;FreshJuiceSize&lt;/span&gt; size&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;FreshJuiceTest&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;FreshJuice&lt;/span&gt; juice &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;FreshJuice&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; juice&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;size &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;FreshJuice&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;FreshJuiceSize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;MEDIUM &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;注意：枚举可以单独声明或者声明在类里面。方法、变量、构造函数也可以在枚举中定义。&lt;/p&gt;
+&lt;h3 id=&#34;java-关键字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java-关键字&#34;&gt;#&lt;/a&gt; Java 关键字&lt;/h3&gt;
+&lt;p&gt;下面列出了 Java 关键字。这些保留字不能用于常量、变量、和任何标识符的名称。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;类别&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;关键字&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;访问控制&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;private&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;私有的&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;protected&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;受保护的&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;public&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;公共的&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;default&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;默认&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;类、方法和变量修饰符&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;abstract&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;声明抽象&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;java注释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java注释&#34;&gt;#&lt;/a&gt; Java 注释&lt;/h3&gt;
+&lt;p&gt;类似于 C/C++、Java 也支持单行以及多行注释。注释中的字符将被 Java 编译器忽略。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;HelloWorld&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token comment&#34;&gt;/* 这是第一个 Java 程序&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    * 它将打印 Hello World&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    * 这是一个多行注释的示例&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;span class=&#34;token comment&#34;&gt;// 这是单行注释的示例&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;span class=&#34;token comment&#34;&gt;/* 这个也是单行注释的示例 */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello World&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;java-空行&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java-空行&#34;&gt;#&lt;/a&gt; Java 空行&lt;/h3&gt;
+&lt;p&gt;空白行或者有注释的行，Java 编译器都会忽略掉。&lt;/p&gt;
+&lt;h3 id=&#34;继承&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#继承&#34;&gt;#&lt;/a&gt; 继承&lt;/h3&gt;
+&lt;p&gt;在 Java 中，一个类可以由其他类派生。如果你要创建一个类，而且已经存在一个类具有你所需要的属性或方法，那么你可以将新创建的类继承该类。&lt;/p&gt;
+&lt;p&gt;利用继承的方法，可以重用已存在类的方法和属性，而不用重写这些代码。被继承的类称为超类（super class），派生类称为子类（subclass）。&lt;/p&gt;
+&lt;h3 id=&#34;接口&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#接口&#34;&gt;#&lt;/a&gt; 接口&lt;/h3&gt;
+&lt;p&gt;在 Java 中，接口可理解为对象间相互通信的协议。接口在继承中扮演着很重要的角色。&lt;/p&gt;
+&lt;p&gt;接口只定义派生要用到的方法，但是方法的具体实现完全取决于派生类。&lt;/p&gt;
+&lt;h3 id=&#34;java-源程序与编译型运行区别&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java-源程序与编译型运行区别&#34;&gt;#&lt;/a&gt; Java 源程序与编译型运行区别&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/05/18/9tewhnfaI18sz6S.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://isviolet.github.io</id>
+    <title>Violet • Posts by &#34;栈&#34; category</title>
+    <link href="https://isviolet.github.io" />
+    <updated>2021-05-18T13:04:47.386Z</updated>
+    <category term="Android" />
+    <category term="JAVAWEB" />
+    <category term="springboot" />
+    <category term="unity3D" />
+    <category term="极限和连续" />
+    <category term="HTTP" />
+    <category term="CDC" />
+    <category term="bug" />
+    <category term="linux" />
+    <category term="python" />
+    <category term="爬虫" />
+    <category term="线性表" />
+    <category term="JAVA" />
+    <category term="栈" />
+    <category term="JAVA开发手册" />
+    <category term="无穷小" />
+    <category term="数据库" />
+    <entry>
+        <id>https://isviolet.github.io/p/1899f14b.html</id>
+        <title>栈的概念及其应用</title>
+        <link rel="alternate" href="https://isviolet.github.io/p/1899f14b.html"/>
+        <content type="html">&lt;h2 id=&#34;栈的概念及其应用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#栈的概念及其应用&#34;&gt;#&lt;/a&gt; 栈的概念及其应用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;栈是仅限制在表尾进行插入和删除操作的特殊线性表&lt;/li&gt;
+&lt;li&gt;栈中限制操作的表尾端称为 “栈顶”，另一端称为 “栈底”&lt;/li&gt;
+&lt;li&gt;栈具有后进先出或先进后出的操作特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;栈的生活应用：抽纸盒，子弹压入和弹出&lt;/p&gt;
+&lt;p&gt;栈的计算机的应用：表达式求值，迷宫求解，函数递归&lt;/p&gt;
+&lt;h2 id=&#34;顺序栈基本操作的实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#顺序栈基本操作的实现&#34;&gt;#&lt;/a&gt; 顺序栈基本操作的实现&lt;/h2&gt;
+&lt;p&gt;栈的顺序存储结构描述：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;typedef struct&amp;#123;
+    SElemType *base;//栈底指针
+    SElemType *top;//栈顶指针
+    int stacksize;
+&amp;#125;SqStack;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;顺序栈入栈操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#顺序栈入栈操作&#34;&gt;#&lt;/a&gt; &lt;strong&gt;顺序栈入栈操作&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;分析：将元素 e 插入到顺序栈 S 内，将其成为新的栈顶元素。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;入栈步骤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;检测（判断栈是否满）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果 S.top-S.base &amp;gt;= S.stacksize, 则需要用 realloc 函数追加空间&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;压入（将 e 压入到栈顶指针所指示的存储单元）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;*S.top = e;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;修正栈顶指针（栈顶指针后移一位）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;S.top = S.top+1;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;时间复杂度为 O (1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;顺序栈出栈操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#顺序栈出栈操作&#34;&gt;#&lt;/a&gt; &lt;strong&gt;顺序栈出栈操作&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;分析：当栈非空时，删除栈顶元素，并返回该元素&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;出栈步骤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;检测（判断栈是否满）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;若 S.top S.base，则结束操作&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;将栈顶指针前移一位&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;S.top = S.top -1;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;读取到被删的栈顶元素并存入 e 中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;e = *S.top;&lt;/p&gt;
+&lt;h2 id=&#34;链栈基本操作的实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链栈基本操作的实现&#34;&gt;#&lt;/a&gt; 链栈基本操作的实现&lt;/h2&gt;
+&lt;h3 id=&#34;链栈入栈操作的实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链栈入栈操作的实现&#34;&gt;#&lt;/a&gt; &lt;strong&gt;链栈入栈操作的实现&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;分析：将元素 e 插入到链栈中，使其成为新的栈顶元素&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;确定插入位置&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;插入到 S 指针所指示的结点前面&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;产生待插入的新结点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;p = (LinkList)malloc(sizeof(SNode));&lt;/p&gt;
+&lt;p&gt;p-&amp;gt;data = e;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;修改链指针（使新结点链入链表的指定位置）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;p-&amp;gt;next = S;&lt;/p&gt;
+&lt;p&gt;S = p;&lt;/p&gt;
+&lt;h3 id=&#34;链栈出栈操作的实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链栈出栈操作的实现&#34;&gt;#&lt;/a&gt; &lt;strong&gt;链栈出栈操作的实现&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;分析： 当栈非空时，删除栈顶元素，并返回该元素&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;判断链栈是否空&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;若 S NULL; 则结束操作&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;确定待删结点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;p = S;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;修改链指针，使待删结点从链中脱离出来&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;S = p-&amp;gt;next;&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;释放空间&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;e = p-&amp;gt;data;&lt;/p&gt;
+&lt;p&gt;free(p);&lt;/p&gt;
+</content>
+        <category term="栈" />
+        <updated>2021-05-18T13:04:47.386Z</updated>
+    </entry>
+</feed>

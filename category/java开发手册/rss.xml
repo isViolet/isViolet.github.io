@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Violet • Posts by &#34;java开发手册&#34; category</title>
+        <link>https://isviolet.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 18 May 2021 21:14:08 +0800</pubDate>
+        <lastBuildDate>Tue, 18 May 2021 21:14:08 +0800</lastBuildDate>
+        <category>Android</category>
+        <category>JAVAWEB</category>
+        <category>springboot</category>
+        <category>unity3D</category>
+        <category>极限和连续</category>
+        <category>HTTP</category>
+        <category>CDC</category>
+        <category>bug</category>
+        <category>linux</category>
+        <category>python</category>
+        <category>爬虫</category>
+        <category>线性表</category>
+        <category>JAVA</category>
+        <category>栈</category>
+        <category>JAVA开发手册</category>
+        <category>无穷小</category>
+        <category>数据库</category>
+        <item>
+            <guid isPermalink="true">https://isviolet.github.io/p/d1cf2272.html</guid>
+            <title>Json转实体类</title>
+            <link>https://isviolet.github.io/p/d1cf2272.html</link>
+            <category>JAVA开发手册</category>
+            <pubDate>Tue, 18 May 2021 21:14:08 +0800</pubDate>
+            <description><![CDATA[ &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/*&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;这里使用 fastJson 的 JSON.parseObject () 方法，左边是 json 字符串，右边是要转换的实体类，即上面生成的实体类。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;Entiy&lt;/span&gt; entiy &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; JSON&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;parseObject&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;json&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Entiy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://isviolet.github.io/p/8d639fd2.html</guid>
+            <title>编程规约の常量定义</title>
+            <link>https://isviolet.github.io/p/8d639fd2.html</link>
+            <category>JAVA开发手册</category>
+            <pubDate>Tue, 18 May 2021 21:02:40 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;1.【强制】不允许任何魔法值（即未经预先定义的常量）直接出现在代码中。&lt;br /&gt;
+反例：String key = &amp;quot;Id#taobao_&amp;quot;+ tradeId;&lt;br /&gt;
+cache.put(key, value)&lt;/p&gt;
+&lt;p&gt;2.【强制】在 long 或者 Long 赋值时，数值后使用大写的 L，不能是小写的 l，小写容易跟数字 1 混淆，造成误解。&lt;br /&gt;
+说明：Long a = 2l; 写的是数字的 21，还是 Long 型的 2?&lt;/p&gt;
+&lt;p&gt;3.【推荐】不要使用一个常量类维护所有常量，要按&lt;strong&gt;常量功能&lt;/strong&gt;进行归类，分开维护。&lt;br /&gt;
+说明：大而全的常量类，杂乱无章，使用查找功能才能定位到修改的常量，不利于理解和维护。&lt;br /&gt;
+正例：缓存相关常量放在类 CacheConsts 下；系统配置相关常量放在类 ConfigConsts 下。&lt;/p&gt;
+&lt;p&gt;4.【推荐】常量的复用层次有五层：跨应用共享常量、应用内共享常量、子工程内共享常量、包内共享常量、类内共享常量。&lt;br /&gt;
+1） 跨应用共享常量：放置在二方库中，通常是 client.jar 中的 constant 目录下。&lt;br /&gt;
+2） 应用内共享常量：放置在一方库中，通常是子模块中的 constant 目录下。&lt;br /&gt;
+反例：易懂变量也要统一定义成应用内共享常量，两位攻城师在两个类中分别定义了表示 “是” 的变量：&lt;br /&gt;
+类 A 中：public static final String YES = &amp;quot;yes&amp;quot;;&lt;br /&gt;
+ 类 B 中：public static final String YES = &amp;quot;y&amp;quot;;&lt;br /&gt;
+A.YES.equals (B.YES)，预期是 true，但实际返回为 false，导致线上问题。&lt;br /&gt;
+3） 子工程内部共享常量：即在当前子工程的 constant 目录下。&lt;br /&gt;
+4） 包内共享常量：即在当前包下单独的 constant 目录下。&lt;br /&gt;
+5） 类内共享常量：直接在类内部 private static final 定义。&lt;/p&gt;
+&lt;p&gt;5.【推荐】如果变量值仅在一个固定范围内变化用 enum 类型来定义。&lt;br /&gt;
+说明：如果存在名称之外的延伸属性应使用 enum 类型，下面正例中的数字就是延伸信息，表示一年中的第几个季节。&lt;br /&gt;
+正例：&lt;br /&gt;
+public enum SeasonEnum {&lt;br /&gt;
+SPRING(1), SUMMER(2), AUTUMN(3), WINTER(4);&lt;br /&gt;
+private int seq;&lt;br /&gt;
+SeasonEnum(int seq){&lt;br /&gt;
+this.seq = seq;&lt;br /&gt;
+}&lt;br /&gt;
+}&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://isviolet.github.io/p/f50429c.html</guid>
+            <title>编程规约の命名风格</title>
+            <link>https://isviolet.github.io/p/f50429c.html</link>
+            <category>JAVA开发手册</category>
+            <pubDate>Tue, 18 May 2021 21:00:49 +0800</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;【强制】代码中的命名均不能以下划线或美元符号开始，也不能以下划线或美元符号结束。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;反例：_name / &lt;strong&gt;name / &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;/&lt;/mi&gt;&lt;/msub&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;name / name_ / name&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.1052em;vertical-align:-0.3551999999999999em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.34480000000000005em;&#34;&gt;&lt;span style=&#34;top:-2.5198em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3551999999999999em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; / name&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;【强制】代码中的命名严禁使用拼音与英文混合的方式，更不允许直接使用中文的方式。&lt;br /&gt;
+说明：正确的英文拼写和语法可以让阅读者易于理解，避免歧义。注意，即使纯拼音命名方式也要避免采用。&lt;br /&gt;
+正例：alibaba /taobao/youku /hangzhou 等国际通用的名称，可视同英文。&lt;br /&gt;
+反例：DaZhePromotion [打折] /getPingfenByName () [评分] /int 某变量 = 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【强制】类名使用 UpperCamelCase 风格，但以下情形例外：DO / BO / DTO / VO / AO /PO/ UID 等。&lt;br /&gt;
+正例：MarcoPolo / UserDO / XmlService / TcpUdpDeal / TaPromotion&lt;br /&gt;
+ 反例：macroPolo / UserDo / XMLService / TCPUDPDeal / TAPromotion&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【强制】方法名、参数名、成员变量、局部变量都统一使用 lowerCamelCase 风格，必须遵从驼峰形式。&lt;br /&gt;
+正例： localValue /getHttpMessage () /inputUserId&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【强制】常量命名全部大写，单词间用下划线隔开，力求语义表达完整清楚，不要嫌名字长。&lt;br /&gt;
+正例：MAX_STOCK_COUNT&lt;br /&gt;
+ 反例：MAX_COUNT&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【强制】抽象类命名使用 Abstract 或 Base 开头；异常类命名使用 Exception 结尾；测试类命名以它要测试的类的名称开始，以 Test 结尾。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【强制】类型与中括号紧挨相连来表示数组。&lt;br /&gt;
+正例：定义整形数组 int [] arrayDemo;&lt;br /&gt;
+ 反例：在 main 参数中，使用 String args [] 来定义。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【强制】POJO 类中布尔类型的变量，都不要加 is 前缀，否则部分框架解析会引起序列化错误。&lt;br /&gt;
+反例：定义为基本数据类型 Boolean isDeleted 的属性，它的方法也是 isDeleted ()，RPC 框架在反向解析的时候，“误以为” 对应的属性名称是 deleted，导致属性获取不到，进而抛出异常。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【强制】包名统一使用小写，点分隔符之间有且仅有一个自然语义的英语单词。包名统一使用单数形式，但是类名如果有复数含义，类名可以使用复数形式。&lt;br /&gt;
+正例：应用工具类包名为 com.alibaba.ai.util、类名为 MessageUtils（此规则参考 spring 的框架结构）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【强制】杜绝完全不规范的缩写，避免望文不知义。&lt;br /&gt;
+反例：AbstractClass “缩写” 命名成 AbsClass；condition “缩写” 命名成 condi，此类随意缩写严重降低了代码的可阅读性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【推荐】为了达到代码自解释的目标，任何自定义编程元素在命名时，使用尽量完整的单词组合来表达其意。&lt;br /&gt;
+正例：在 JDK 中，表达原子更新的类名为：AtomicReferenceFieldUpdater。&lt;br /&gt;
+反例：变量 int a 的随意命名方式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【推荐】如果模块、接口、类、方法使用了设计模式，在命名时需体现出具体模式。说明：将设计模式体现在名字中，有利于阅读者快速理解架构设计理念。&lt;br /&gt;
+正例：public class OrderFactory;&lt;br /&gt;
+public class LoginProxy;&lt;br /&gt;
+public class ResourceObserver;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【推荐】接口类中的方法和属性不要加任何修饰符号（public 也不要加），保持代码的简洁性，并加上有效的 Javadoc 注释。尽量不要在接口里定义变量，如果一定要定义变量，肯定是与接口方法相关，并且是整个应用的基础常量。&lt;br /&gt;
+正例：接口方法签名 void commit ();&lt;br /&gt;
+ 接口基础常量 String COMPANY = &amp;quot;alibaba&amp;quot;;&lt;br /&gt;
+ 反例：接口方法定义 public abstract void f ();&lt;br /&gt;
+ 说明：JDK8 中接口允许有默认实现，那么这个 default 方法，是对所有实现类都有价值的默认实现。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接口和实现类的命名有两套规则：&lt;br /&gt;
+1）【强制】对于 Service 和 DAO 类，基于 SOA 的理念，暴露出来的服务一定是接口，内部的实现类用 Impl 的后缀与接口区别。&lt;br /&gt;
+正例：CacheServiceImpl 实现 CacheService 接口。&lt;br /&gt;
+2）【推荐】如果是形容能力的接口名称，取对应的形容词为接口名（通常是–able 的形式）。&lt;br /&gt;
+正例：AbstractTranslator 实现 Translatable 接口。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【参考】枚举类名建议带上 Enum 后缀，枚举成员名称需要全大写，单词间用下划线隔开。&lt;br /&gt;
+说明：枚举其实就是特殊的类，域成员均为常量，且构造方法被默认强制是私有。&lt;br /&gt;
+正例：枚举名字为 ProcessStatusEnum 的成员名称：SUCCESS / UNKNOWN_REASON。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【参考】各层命名规约：&lt;br /&gt;
+A) Service/DAO 层方法命名规约&lt;br /&gt;
+ 1） 获取单个对象的方法用 get 做前缀。&lt;br /&gt;
+2） 获取多个对象的方法用 list 做前缀，复数形式结尾如：listObjects。&lt;br /&gt;
+3） 获取统计值的方法用 count 做前缀。&lt;br /&gt;
+4） 插入的方法用 save/insert 做前缀。&lt;br /&gt;
+5） 删除的方法用 remove/delete 做前缀。&lt;br /&gt;
+6） 修改的方法用 update 做前缀。&lt;br /&gt;
+B) 领域模型命名规约&lt;br /&gt;
+ 1） 数据对象：xxxDO，xxx 即为数据表名。&lt;br /&gt;
+2） 数据传输对象：xxxDTO，xxx 为业务领域相关的名称。&lt;br /&gt;
+3） 展示对象：xxxVO，xxx 一般为网页名称。&lt;br /&gt;
+4） POJO 是 DO/DTO/BO/VO 的统称，禁止命名成 xxxPOJO。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

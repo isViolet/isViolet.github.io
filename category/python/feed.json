@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Violet • All posts by \"python\" category",
+    "description": "",
+    "home_page_url": "https://isviolet.github.io",
+    "items": [
+        {
+            "id": "https://isviolet.github.io/p/8aff4f2e.html",
+            "url": "https://isviolet.github.io/p/8aff4f2e.html",
+            "title": "爬虫概念、工具和HTTP",
+            "date_published": "2021-05-18T13:18:19.660Z",
+            "content_html": "<ul>\n<li>什么是爬虫\n<ul>\n<li>爬虫就是模拟客户端 (浏览器) 发送网络请求，获取响应，按照规则提取数据的程序</li>\n<li>模拟客户端 (浏览器) 发送网络请求：照着浏览器发送一模一样的请求，获取和浏览器一模一样的数据</li>\n</ul>\n</li>\n<li>爬虫的数据去哪了\n<ul>\n<li>呈现出来：展示在网页上，或者是展示在 app 上</li>\n<li>进行分析：从数据中寻找一些规律</li>\n</ul>\n</li>\n<li>需要的软件和环境\n<ul>\n<li>python3\n<ul>\n<li>黑马 python 基础班 15 天视频: <span class=\"exturl\" data-url=\"aHR0cDovL3l1bi5pdGhlaW1hLmNvbS9jb3Vyc2UvMjE0Lmh0bWw=\">http://yun.itheima.com/course/214.html</span></li>\n<li>基础语法 (字符串，列表，字典，判断和循环)</li>\n<li>函数 (函数的创建和调用)</li>\n<li>面向对象 (如何创建一个类， 如何使用这个类)</li>\n</ul>\n</li>\n<li>pyCharm\n<ul>\n<li>python 编辑器</li>\n</ul>\n</li>\n<li>chrome 浏览器\n<ul>\n<li>分析网络请求用的</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>浏览器的请求\n<ul>\n<li>url\n<ul>\n<li>在 chrome 中点击检查，点到 network</li>\n<li>url= 请求的协议 + 网站的域名 + 资源的路径 + 参数</li>\n</ul>\n</li>\n<li>浏览器请求 url 地址\n<ul>\n<li>当前 url 对应的响应 + js+CSS + 图片 --&gt; elements 中的内容</li>\n</ul>\n</li>\n<li>爬虫请求 url 地址\n<ul>\n<li>当前 url 对应的响应</li>\n</ul>\n</li>\n<li>elements 的内容和爬虫获取到的 ur 地址的响应不同，爬虫中需要以当前 url 地址对应的响应为准提取数据</li>\n<li>当前 url 地址对应的响应在哪里\n<ul>\n<li>从 network 中找到当前的 ur 地址，点击 response</li>\n<li>在页面上右键显示网页源码</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n",
+            "tags": [
+                "python",
+                "爬虫"
+            ]
+        }
+    ]
+}
