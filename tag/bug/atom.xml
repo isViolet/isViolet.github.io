@@ -1,25 +1,23 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://isviolet.github.io</id>
-    <title>友人帐 • Posts by &#34;bug&#34; tag</title>
+    <title>友人帐🎴 • Posts by &#34;bug&#34; tag</title>
     <link href="https://isviolet.github.io" />
     <updated>2021-05-18T13:14:44.222Z</updated>
+    <category term="随文" />
     <category term="Android" />
-    <category term="unity3D" />
     <category term="springboot" />
-    <category term="极限和连续" />
+    <category term="JAVAWEB" />
+    <category term="unity3D" />
     <category term="bug" />
     <category term="linux" />
-    <category term="JAVAWEB" />
     <category term="HTTP" />
     <category term="python" />
     <category term="爬虫" />
-    <category term="线性表" />
     <category term="栈" />
+    <category term="线性表" />
     <category term="JAVA" />
     <category term="JAVA开发手册" />
-    <category term="CDC" />
-    <category term="无穷小" />
     <category term="数据库" />
     <entry>
         <id>https://isviolet.github.io/p/5944b1b6.html</id>

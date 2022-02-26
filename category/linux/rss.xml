@@ -1,28 +1,26 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>友人帐 • Posts by &#34;linux&#34; category</title>
+        <title>友人帐🎴 • Posts by &#34;linux&#34; category</title>
         <link>https://isviolet.github.io</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Tue, 18 May 2021 20:26:15 +0800</pubDate>
         <lastBuildDate>Tue, 18 May 2021 20:26:15 +0800</lastBuildDate>
+        <category>随文</category>
         <category>Android</category>
-        <category>unity3D</category>
         <category>springboot</category>
-        <category>极限和连续</category>
+        <category>JAVAWEB</category>
+        <category>unity3D</category>
         <category>bug</category>
         <category>linux</category>
-        <category>JAVAWEB</category>
         <category>HTTP</category>
         <category>python</category>
         <category>爬虫</category>
-        <category>线性表</category>
         <category>栈</category>
+        <category>线性表</category>
         <category>JAVA</category>
         <category>JAVA开发手册</category>
-        <category>CDC</category>
-        <category>无穷小</category>
         <category>数据库</category>
         <item>
             <guid isPermalink="true">https://isviolet.github.io/p/4d2c3dcc.html</guid>

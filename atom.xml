@@ -1,46 +1,32 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://isviolet.github.io</id>
-    <title>友人帐</title>
+    <title>友人帐🎴</title>
     <link href="https://isviolet.github.io" />
-    <updated>2021-07-30T07:40:23.669Z</updated>
+    <updated>2022-02-26T07:14:21.365Z</updated>
+    <category term="随文" />
     <category term="Android" />
-    <category term="unity3D" />
     <category term="springboot" />
-    <category term="极限和连续" />
+    <category term="JAVAWEB" />
+    <category term="unity3D" />
     <category term="bug" />
     <category term="linux" />
-    <category term="JAVAWEB" />
     <category term="HTTP" />
     <category term="python" />
     <category term="爬虫" />
-    <category term="线性表" />
     <category term="栈" />
+    <category term="线性表" />
     <category term="JAVA" />
     <category term="JAVA开发手册" />
-    <category term="CDC" />
-    <category term="无穷小" />
     <category term="数据库" />
     <entry>
-        <id>https://isviolet.github.io/p/e852f90d.html</id>
-        <title>第一讲 高等数学知识总结</title>
-        <link rel="alternate" href="https://isviolet.github.io/p/e852f90d.html"/>
-        <content type="html">&lt;blockquote&gt;
-&lt;p&gt;总结了一些高等数学的基础知识，俗话说基础不牢，地动山摇，把基础扎实了，也就不慌了。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/lyPdrUStm2E8pVn.png&#34; alt=&#34;image-20210730160720545&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/fEUJSInCqjm1gGw.png&#34; alt=&#34;image-20210730160759266&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/COmPZwvhgXR7AfM.png&#34; alt=&#34;image-20210730160823319&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/KVITiexjkzflR2N.png&#34; alt=&#34;image-20210730160921006&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/wGfH37ShMJ8mgUI.png&#34; alt=&#34;image-20210730160932603&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/smnXR3Jl4CPby6w.png&#34; alt=&#34;image-20210730160944252&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/bCTZgcwQRWi4pLx.png&#34; alt=&#34;image-20210730161013717&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/FHW3vkKPryYfEXg.png&#34; alt=&#34;image-20210730161026083&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/PE68pMfAaDQ2UBV.png&#34; alt=&#34;image-20210730161045176&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/Ep4Y29mXjBqAvin.png&#34; alt=&#34;image-20210730161100239&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/07/30/5AV6Gg8peqRcYhL.png&#34; alt=&#34;image-20210730161115732&#34; /&gt;&lt;/p&gt;
+        <id>https://isviolet.github.io/p/7bb40353.html</id>
+        <title>找回账号密码了\^o^/</title>
+        <link rel="alternate" href="https://isviolet.github.io/p/7bb40353.html"/>
+        <content type="html">&lt;p&gt;距离上次发博客已经过了很久了，现在打算重新写些文章了，考虑记录下自己的学习过程，心得总结，还有些有趣的事。&lt;/p&gt;
 </content>
-        <updated>2021-07-30T07:40:23.669Z</updated>
+        <category term="随文" />
+        <updated>2022-02-26T07:14:21.365Z</updated>
     </entry>
     <entry>
         <id>https://isviolet.github.io/p/8aff4f2e.html</id>
@@ -1513,301 +1499,6 @@ AR 看到的是现实世界和计算机虚拟信息的叠加。&lt;/p&gt;
 </content>
         <category term="HTTP" />
         <updated>2021-05-18T12:01:06.193Z</updated>
-    </entry>
-    <entry>
-        <id>https://isviolet.github.io/p/37704.html</id>
-        <title>云数据学习记录 2021-04-25</title>
-        <link rel="alternate" href="https://isviolet.github.io/p/37704.html"/>
-        <content type="html">&lt;h1 id=&#34;vmware-workstation虚拟网络及排错思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vmware-workstation虚拟网络及排错思路&#34;&gt;#&lt;/a&gt; vmware workstation 虚拟网络及排错思路&lt;/h1&gt;
-&lt;h2 id=&#34;虚拟网络编辑器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#虚拟网络编辑器&#34;&gt;#&lt;/a&gt; 虚拟网络编辑器&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/BCHhv7WnuUdEMjb.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;虚拟机配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#虚拟机配置&#34;&gt;#&lt;/a&gt; 虚拟机配置&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/b48rDdQJFuzsXaA.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;网络模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#网络模式&#34;&gt;#&lt;/a&gt; 网络模式&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/gHW6c2PFtw9Khzk.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;仅主机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#仅主机&#34;&gt;#&lt;/a&gt; 仅主机&lt;/h3&gt;
-&lt;p&gt;虚机仅仅可以连接到物理机&lt;br /&gt;
-&lt;img data-src=&#34;https://i.loli.net/2021/04/25/N78PSVvkxOs4EhG.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
-&lt;strong&gt; 虚拟机是如何连接到物理机的？原因是安装完 vmware 后，会有适配器（网卡），通过虚拟网络和虚拟网卡即可连接。&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;连接失败无法ping通&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#连接失败无法ping通&#34;&gt;#&lt;/a&gt; 连接失败无法 ping 通&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/bDPYKcqZuJ9yIao.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;nat模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nat模式&#34;&gt;#&lt;/a&gt; NAT 模式&lt;/h3&gt;
-&lt;p&gt;进入网络编辑器的 NAT 编辑，注意网关最后是 2 不是 1&lt;br /&gt;
-&lt;img data-src=&#34;https://i.loli.net/2021/04/25/GNyiIAmvbS5jPoe.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;桥接模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#桥接模式&#34;&gt;#&lt;/a&gt; 桥接模式&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;通过物理机，连接到外部的网络，虚拟机可以分配到独立的 ip，直接暴露在网络下，和物理机一样拥有一个 IP 地址&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/eSnAzx3oDdN4Ykj.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
-&lt;strong&gt; 勾选复制物理机连接状态，物理机改变有线和无线，虚拟机的网络也会改变&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;排错总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#排错总结&#34;&gt;#&lt;/a&gt; 排错总结&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/vsSw2pCXGMQ6KAT.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;关于xshell和ssh等&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于xshell和ssh等&#34;&gt;#&lt;/a&gt; 关于 xshell 和 ssh 等&lt;/h1&gt;
-&lt;h2 id=&#34;xshell远程工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#xshell远程工具&#34;&gt;#&lt;/a&gt; xshell 远程工具&lt;/h2&gt;
-&lt;h3 id=&#34;登陆&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#登陆&#34;&gt;#&lt;/a&gt; 登陆&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;未登录&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/R3NbzdE7GAmDwUu.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;登陆使用 ssh 协议（不要套娃登陆）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/ZHc4o2NLU6dBmPM.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;多会话&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多会话&#34;&gt;#&lt;/a&gt; 多会话&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/5yqibcNg12rtCSV.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;新建会话&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新建会话&#34;&gt;#&lt;/a&gt; 新建会话&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/wtu12GSA4IXMyv5.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;查看远程连接虚拟机who&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看远程连接虚拟机who&#34;&gt;#&lt;/a&gt; 查看远程连接虚拟机（who）&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/YOVP5NFvahmLysH.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;远程文件上传&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#远程文件上传&#34;&gt;#&lt;/a&gt; 远程文件上传&lt;/h3&gt;
-&lt;h3 id=&#34;复制粘贴&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#复制粘贴&#34;&gt;#&lt;/a&gt; 复制粘贴&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;工具 -&amp;gt; 选项 -&amp;gt; 键盘和鼠标&lt;/strong&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://i.loli.net/2021/04/25/rXwKjT1sctq8deh.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;看日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#看日志&#34;&gt;#&lt;/a&gt; 看日志&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/z1vbfkiaQ9sOgD7.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;linux命令提示符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux命令提示符&#34;&gt;#&lt;/a&gt; Linux 命令提示符&lt;/h1&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@localhost ~&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;#&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;root表示当前登陆的用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;localhost:主机名&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;whoami：当前用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pwd：当前工作目录&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;useradd&lt;/span&gt; aaa：添加用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;su&lt;/span&gt; - aaa：切换用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$：表示普通用户&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#：表示 root 用户&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;虚拟机的根目录：/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;cd命令和tab键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cd命令和tab键&#34;&gt;#&lt;/a&gt; cd 命令和 Tab 键&lt;/h1&gt;
-&lt;h2 id=&#34;cd命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cd命令&#34;&gt;#&lt;/a&gt; cd 命令&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;cd：切换目录&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt; pwd：当前目录&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt; cd -：回到前一次目录&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt; cd ..：回到上一级目录&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt; cd ../..：回到上一级目录的上一级目录&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;除非长期工作在该目录，否则尽量少用 cd&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;回到家目录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回到家目录&#34;&gt;#&lt;/a&gt; 回到家目录&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;cd /root/&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;cd ~&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;cd&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;当前目录下有哪些文件可以敲两次 tab，tab 可以自动补齐&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;ls及常用参数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ls及常用参数&#34;&gt;#&lt;/a&gt; ls 及常用参数&lt;/h1&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#当前路径下所有非隐藏文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#当前路径下所有文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -a&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#详细信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -l&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#所有文件的详细信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -la&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#按时间排序&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -lt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#查看虚拟机的时间&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;date&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#ls -l 可以写成 ll&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;文件权限和所有者&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件权限和所有者&#34;&gt;#&lt;/a&gt; 文件权限和所有者&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;drw-r--r--&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;d：表示文件夹&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;前三位：所有者的权限&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;中间三位：所有者所在组的其它用户的权限&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;后三位：其他组的权限&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt; r：可读 4&lt;/strong&gt;&lt;br /&gt;
-**w：可写 2 **&lt;br /&gt;
-&lt;strong&gt;x：可执行 1&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/a5sU481en9WyNKD.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h1 id=&#34;cp-rm-mv-多敲回车&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cp-rm-mv-多敲回车&#34;&gt;#&lt;/a&gt; cp、rm、mv、多敲回车&lt;/h1&gt;
-&lt;p&gt;cp：拷贝文件&lt;br /&gt;
- cp -r：拷贝文件及目录&lt;br /&gt;
- rm：删除文件&lt;br /&gt;
- rm -r：删除目录及文件&lt;br /&gt;
- rm -rf：强制删除&lt;/p&gt;
-&lt;p&gt;移动 123 文件到当前目录并取名 333&lt;br /&gt;
-mv /182/123 ./333&lt;/p&gt;
-&lt;h1 id=&#34;根目录及其成员粗略介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#根目录及其成员粗略介绍&#34;&gt;#&lt;/a&gt; 根目录及其成员粗略介绍&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/KGyIl6wYVFrzhpD.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;mkdir和touch&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mkdir和touch&#34;&gt;#&lt;/a&gt; mkdir 和 touch&lt;/h1&gt;
-&lt;p&gt;mkdir：创建空目录&lt;br /&gt;
- touch：创建空文件&lt;br /&gt;
- cat，more：查看文件内容&lt;/p&gt;
-&lt;h1 id=&#34;vi-vim作用及常见按键&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vi-vim作用及常见按键&#34;&gt;#&lt;/a&gt; vi、vim 作用及常见按键&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/25/zdnbqG74IlMsiyr.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
-vim 非编辑下&lt;br /&gt;
-大写的 I：光标移到改行的最左侧&lt;br /&gt;
- o：光标向下插入一行&lt;br /&gt;
-大写的 O：向上插入一行&lt;br /&gt;
- gg：光标跳到文件最顶部&lt;br /&gt;
- G：光标跳到文件最底部&lt;br /&gt;
- yy：复制该行&lt;br /&gt;
- p：粘贴&lt;br /&gt;
- dd：删除该行&lt;br /&gt;
- u：撤销&lt;br /&gt;
- x：删除某个字符&lt;br /&gt;
- s：删除某个字符并且进入编辑模式&lt;/p&gt;
-</content>
-        <category term="CDC" />
-        <updated>2021-04-25T09:43:11.710Z</updated>
-    </entry>
-    <entry>
-        <id>https://isviolet.github.io/p/6264.html</id>
-        <title>无穷小的小结</title>
-        <link rel="alternate" href="https://isviolet.github.io/p/6264.html"/>
-        <content type="html">&lt;h1 id=&#34;小结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#小结&#34;&gt;#&lt;/a&gt; 小结&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/xkQjO5IoZsD3aUl.png&#34; alt=&#34;image-20210420154152563&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/sp6YqhCct98MUuB.png&#34; alt=&#34;image-20210420154203375&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/Dh8RFlAJ2aKwI4E.png&#34; alt=&#34;image-20210420154321464&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="无穷小" />
-        <updated>2021-04-20T07:40:29.835Z</updated>
-    </entry>
-    <entry>
-        <id>https://isviolet.github.io/p/44090.html</id>
-        <title>无穷小的例题</title>
-        <link rel="alternate" href="https://isviolet.github.io/p/44090.html"/>
-        <content type="html">&lt;h1 id=&#34;例题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#例题&#34;&gt;#&lt;/a&gt; 例题&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/gMsNxOHY41nmyFD.png&#34; alt=&#34;image-20210420152230715&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/zcO1diBYqsToGPS.png&#34; alt=&#34;image-20210420152449953&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/DTiF9qWKvI581jx.png&#34; alt=&#34;image-20210420152843311&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/JWonfBATE6DcV2K.png&#34; alt=&#34;image-20210420153030326&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/3eS1EwgTaIYA2OK.png&#34; alt=&#34;image-20210420153236801&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/U8VNsn3gDq1aRZp.png&#34; alt=&#34;image-20210420153335064&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/6ewag7jok51xCE9.png&#34; alt=&#34;image-20210420153524945&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/8fgL9ch1IyiAKmd.png&#34; alt=&#34;image-20210420153617305&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/JH23Q6j7vYB1iCD.png&#34; alt=&#34;image-20210420153809791&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/G3Mmc7Qa4pVDsXb.png&#34; alt=&#34;image-20210420154007113&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="无穷小" />
-        <updated>2021-04-20T07:17:57.826Z</updated>
-    </entry>
-    <entry>
-        <id>https://isviolet.github.io/p/8406.html</id>
-        <title>常用的等价无穷小</title>
-        <link rel="alternate" href="https://isviolet.github.io/p/8406.html"/>
-        <content type="html">&lt;h1 id=&#34;常用的等价无穷小&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用的等价无穷小&#34;&gt;#&lt;/a&gt; 常用的等价无穷小&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/JcBfyWCVRlPrQNU.png&#34; alt=&#34;image-20210420151442170&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;x 可替换成 f (x)，x 趋于无穷小&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/Qvhs7C1jgBGeXSY.png&#34; alt=&#34;image-20210420151603754&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        <category term="无穷小" />
-        <updated>2021-04-20T07:12:43.185Z</updated>
-    </entry>
-    <entry>
-        <id>https://isviolet.github.io/p/10507.html</id>
-        <title>无穷小的定理</title>
-        <link rel="alternate" href="https://isviolet.github.io/p/10507.html"/>
-        <content type="html">&lt;h1 id=&#34;无穷小的定理1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无穷小的定理1&#34;&gt;#&lt;/a&gt; 无穷小的定理 1&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/UpfCWSjdqG1Y2em.png&#34; alt=&#34;image-20210420150644854&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/eE8NC34Zn2FzWk5.png&#34; alt=&#34;image-20210420150743416&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;无穷小的定理2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无穷小的定理2&#34;&gt;#&lt;/a&gt; 无穷小的定理 2&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/2KzpxZGncN3JFLo.png&#34; alt=&#34;image-20210420150954168&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/tsYIFxV1ZWBaHqd.png&#34; alt=&#34;image-20210420151105349&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="无穷小" />
-        <updated>2021-04-20T07:05:43.035Z</updated>
-    </entry>
-    <entry>
-        <id>https://isviolet.github.io/p/44869.html</id>
-        <title>无穷小的性质</title>
-        <link rel="alternate" href="https://isviolet.github.io/p/44869.html"/>
-        <content type="html">&lt;h1 id=&#34;性质&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#性质&#34;&gt;#&lt;/a&gt; 性质&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/xBEc9Jb2D87rCGK.png&#34; alt=&#34;image-20210420150136975&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/wUxjLGAe53vuRH9.png&#34; alt=&#34;image-20210420150247327&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/cp3RFe5nS46OqmN.png&#34; alt=&#34;image-20210420150353982&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="无穷小" />
-        <updated>2021-04-20T07:00:26.571Z</updated>
-    </entry>
-    <entry>
-        <id>https://isviolet.github.io/p/48548.html</id>
-        <title>无穷小的定义</title>
-        <link rel="alternate" href="https://isviolet.github.io/p/48548.html"/>
-        <content type="html">&lt;h1 id=&#34;回顾&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回顾&#34;&gt;#&lt;/a&gt; 回顾&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;两个无穷小的和，差，积仍是无穷小&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#问题&#34;&gt;#&lt;/a&gt; 问题&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;两个无穷小的商还是无穷小？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/kd3uzIcDTP4N5Ma.png&#34; alt=&#34;image-20210420144954160&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意：无穷小的商可以比较无穷小趋于 0 的 “快慢” 程度&lt;/span&gt;&lt;/p&gt;
-&lt;h1 id=&#34;一-定义&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-定义&#34;&gt;#&lt;/a&gt; 一、定义&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/79GawbhBj5KmJNe.png&#34; alt=&#34;image-20210420145523368&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;回看引例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回看引例&#34;&gt;#&lt;/a&gt; 回看引例&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/D7eyjZkucfzagi8.png&#34; alt=&#34;image-20210420145633527&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/82cSZUIsLrtOYWk.png&#34; alt=&#34;image-20210420145828738&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/20/R5Fhgz1WXMyUE3s.png&#34; alt=&#34;image-20210420145940576&#34; /&gt;&lt;/p&gt;
-</content>
-        <category term="无穷小" />
-        <updated>2021-04-20T06:43:46.522Z</updated>
-    </entry>
-    <entry>
-        <id>https://isviolet.github.io/p/56658.html</id>
-        <title>极限和连续</title>
-        <link rel="alternate" href="https://isviolet.github.io/p/56658.html"/>
-        <content type="html">&lt;blockquote&gt;
-&lt;p&gt;学习资料：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05pa2tpZG9vZy9hcnRpY2xlL2RldGFpbHMvMTA2NzgwOTM0&#34;&gt;https://blog.csdn.net/Nikkidoog/article/details/106780934&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;1极限&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1极限&#34;&gt;#&lt;/a&gt; 1. 极限&lt;/h1&gt;
-&lt;h2 id=&#34;11定义&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#11定义&#34;&gt;#&lt;/a&gt; 1.1 定义&lt;/h2&gt;
-&lt;h3 id=&#34;111数列&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#111数列&#34;&gt;#&lt;/a&gt; 1.1.1 数列&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∣&lt;/mi&gt;&lt;msub&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∣&lt;/mi&gt;&lt;mo&gt;&amp;lt;&lt;/mo&gt;&lt;mi&gt;ε&lt;/mi&gt;&lt;mtext&gt;，&lt;/mtext&gt;&lt;munder&gt;&lt;mo&gt;&lt;mi&gt;lim&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∞&lt;/mi&gt;&lt;/mrow&gt;&lt;/munder&gt;&lt;msub&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;|a_n-A|&amp;lt;ε，\lim\limits_{x\rightarrow\infty}a_n=A
-&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.151392em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.39444em;vertical-align:-0.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;ε&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-2.4em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;∞&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop&#34;&gt;lim&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.151392em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68333em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;112函数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#112函数&#34;&gt;#&lt;/a&gt; 1.1.2 函数&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mtext&gt;当&lt;/mtext&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;&amp;lt;&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∣&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∣&lt;/mi&gt;&lt;mo&gt;&amp;lt;&lt;/mo&gt;&lt;mi&gt;δ&lt;/mi&gt;&lt;mtext&gt;时，&lt;/mtext&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∣&lt;/mi&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∣&lt;/mi&gt;&lt;mo&gt;&amp;lt;&lt;/mo&gt;&lt;mi&gt;ε&lt;/mi&gt;&lt;mtext&gt;，则&lt;/mtext&gt;&lt;munder&gt;&lt;mo&gt;&lt;mi&gt;lim&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∞&lt;/mi&gt;&lt;/mrow&gt;&lt;/munder&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;当0&amp;lt;|x-a|&amp;lt;δ时，|f(x)-A|&amp;lt;ε，则\lim\limits_{x\rightarrow\infty}f(x)=A
-&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.72243em;vertical-align:-0.0391em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;当&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03785em;&#34;&gt;δ&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;时&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∣&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.45em;vertical-align:-0.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;ε&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;则&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-2.4em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;∞&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop&#34;&gt;lim&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.68333em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&#34;12性质&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#12性质&#34;&gt;#&lt;/a&gt; 1.2 性质&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;唯一性&lt;/li&gt;
-&lt;li&gt;保号性&lt;/li&gt;
-&lt;li&gt;有界性&lt;/li&gt;
-&lt;li&gt;列与子列（n 是 x 的子项，洛必达对 x 用，不对 n 用）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;13存在准则&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#13存在准则&#34;&gt;#&lt;/a&gt; 1.3 存在准则&lt;/h2&gt;
-&lt;h3 id=&#34;131夹逼定理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#131夹逼定理&#34;&gt;#&lt;/a&gt; 1.3.1 夹逼定理&lt;/h3&gt;
-&lt;h3 id=&#34;132单调有界数列&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#132单调有界数列&#34;&gt;#&lt;/a&gt; 1.3.2 单调有界数列&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/19/JVGTZ1IPYEhSoa5.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;2连续&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2连续&#34;&gt;#&lt;/a&gt; 2. 连续&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;[a,b] 上存在 m，n&lt;/li&gt;
-&lt;li&gt;[a,b] 上有界&lt;/li&gt;
-&lt;li&gt;零点定理&lt;/li&gt;
-&lt;li&gt;界值定理（&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mo&gt;∈&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;[&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;c ∈ [a,b]&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.5782em;vertical-align:-0.0391em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;∈&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 或者出现函数值之和）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;3间断&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3间断&#34;&gt;#&lt;/a&gt; 3. 间断&lt;/h1&gt;
-&lt;h2 id=&#34;31第一类间断点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#31第一类间断点&#34;&gt;#&lt;/a&gt; 3.1 第一类间断点&lt;/h2&gt;
-&lt;h3 id=&#34;311可去间断点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#311可去间断点&#34;&gt;#&lt;/a&gt; 3.1.1 可去间断点&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;munder&gt;&lt;mo&gt;&lt;mi&gt;lim&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/munder&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;munder&gt;&lt;mo&gt;&lt;mi&gt;lim&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/munder&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo mathvariant=&#34;normal&#34;&gt;≠&lt;/mo&gt;&lt;munder&gt;&lt;mo&gt;&lt;mi&gt;lim&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mrow&gt;&lt;/munder&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\lim\limits_{x\rightarrow a^+}f(x)=\lim\limits_{x\rightarrow a^-}f(x)≠\lim\limits_{x\rightarrow a}f(x)
-&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.507865em;vertical-align:-0.757865em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-2.342135em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7026642857142857em;&#34;&gt;&lt;span style=&#34;top:-2.786em;margin-right:0.07142857142857144em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mbin mtight&#34;&gt;+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop&#34;&gt;lim&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.757865em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.507865em;vertical-align:-0.757865em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-2.342135em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7026642857142857em;&#34;&gt;&lt;span style=&#34;top:-2.786em;margin-right:0.07142857142857144em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mbin mtight&#34;&gt;−&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop&#34;&gt;lim&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.757865em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;&lt;span class=&#34;mord vbox&#34;&gt;&lt;span class=&#34;thinbox&#34;&gt;&lt;span class=&#34;rlap&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8888799999999999em;vertical-align:-0.19444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;inner&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;fix&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.45em;vertical-align:-0.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-2.4em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;a&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop&#34;&gt;lim&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;312跳跃间断点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#312跳跃间断点&#34;&gt;#&lt;/a&gt; 3.1.2 跳跃间断点&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;munder&gt;&lt;mo&gt;&lt;mi&gt;lim&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/munder&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo mathvariant=&#34;normal&#34;&gt;≠&lt;/mo&gt;&lt;munder&gt;&lt;mo&gt;&lt;mi&gt;lim&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/munder&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\lim\limits_{x\rightarrow a^+}f(x)≠\lim\limits_{x\rightarrow a^-}f(x)
-&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.507865em;vertical-align:-0.757865em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-2.342135em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7026642857142857em;&#34;&gt;&lt;span style=&#34;top:-2.786em;margin-right:0.07142857142857144em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mbin mtight&#34;&gt;+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop&#34;&gt;lim&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.757865em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;&lt;span class=&#34;mord vbox&#34;&gt;&lt;span class=&#34;thinbox&#34;&gt;&lt;span class=&#34;rlap&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8888799999999999em;vertical-align:-0.19444em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;inner&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;fix&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.507865em;vertical-align:-0.757865em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-2.342135em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7026642857142857em;&#34;&gt;&lt;span style=&#34;top:-2.786em;margin-right:0.07142857142857144em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mbin mtight&#34;&gt;−&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop&#34;&gt;lim&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.757865em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&#34;32第二类间断点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#32第二类间断点&#34;&gt;#&lt;/a&gt; 3.2 第二类间断点&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;munder&gt;&lt;mo&gt;&lt;mi&gt;lim&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/munder&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mtext&gt;，&lt;/mtext&gt;&lt;munder&gt;&lt;mo&gt;&lt;mi&gt;lim&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/munder&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mtext&gt;至少一个不存在&lt;/mtext&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\lim\limits_{x\rightarrow a^+}f(x)，\lim\limits_{x\rightarrow a^-}f(x)至少一个不存在
-&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.507865em;vertical-align:-0.757865em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-2.342135em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7026642857142857em;&#34;&gt;&lt;span style=&#34;top:-2.786em;margin-right:0.07142857142857144em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mbin mtight&#34;&gt;+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop&#34;&gt;lim&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.757865em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mop op-limits&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.69444em;&#34;&gt;&lt;span style=&#34;top:-2.342135em;margin-left:0em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mrel mtight&#34;&gt;→&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7026642857142857em;&#34;&gt;&lt;span style=&#34;top:-2.786em;margin-right:0.07142857142857144em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mbin mtight&#34;&gt;−&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&#34;mop&#34;&gt;lim&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.757865em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;至&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;少&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;一&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;个&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;不&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;存&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;在&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h1 id=&#34;4无穷小&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4无穷小&#34;&gt;#&lt;/a&gt; 4. 无穷小&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;0 是无穷小，但无穷小不一定是 0&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;41比阶&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#41比阶&#34;&gt;#&lt;/a&gt; 4.1 比阶&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/19/J5Xji6DtYG1Enzy.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;42性质&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#42性质&#34;&gt;#&lt;/a&gt; 4.2 性质&lt;/h2&gt;
-&lt;h3 id=&#34;421一般性质&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#421一般性质&#34;&gt;#&lt;/a&gt; 4.2.1 一般性质&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;无穷小量不是一个数，它是一个变量。&lt;/li&gt;
-&lt;li&gt;零可以作为无穷小量的唯一一个常量。&lt;/li&gt;
-&lt;li&gt;无穷小量与自变量的趋势相关。&lt;/li&gt;
-&lt;li&gt;有限个无穷小量之和仍是无穷小量。&lt;/li&gt;
-&lt;li&gt;有限个无穷小量之积仍是无穷小量。&lt;/li&gt;
-&lt;li&gt;有界函数与无穷小量之积为无穷小量。&lt;/li&gt;
-&lt;li&gt;特别地，常数和无穷小量的乘积也为无穷小量。&lt;/li&gt;
-&lt;li&gt;恒不为零的无穷小量的倒数为无穷大，无穷大的倒数为无穷小。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;422等价性质&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#422等价性质&#34;&gt;#&lt;/a&gt; 4.2.2 等价性质&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/19/ZqEDOo7AFGyQSaT.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;43x0的泰勒公式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#43x0的泰勒公式&#34;&gt;#&lt;/a&gt; 4.3x→0 的泰勒公式&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/19/sv3K7AjPZRYXEHb.png&#34; alt=&#34;image.png&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://i.loli.net/2021/04/19/ptxqkwXIyCK71na.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;5求极限&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5求极限&#34;&gt;#&lt;/a&gt; 5. 求极限&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/19/EfYU4amJSsXVFIR.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;6极限解题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6极限解题&#34;&gt;#&lt;/a&gt; 6. 极限解题&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/19/7hMpweZYXG98jLB.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;7无穷小解题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#7无穷小解题&#34;&gt;#&lt;/a&gt; 7. 无穷小解题&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.loli.net/2021/04/19/nTvobCl1XdSEGUN.png&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;8数列极限解题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#8数列极限解题&#34;&gt;#&lt;/a&gt; 8. 数列极限解题&lt;/h1&gt;
-&lt;h2 id=&#34;81方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#81方法&#34;&gt;#&lt;/a&gt; 8.1 方法&lt;/h2&gt;
-&lt;p&gt;化成函数，定积分定义&lt;/p&gt;
-&lt;h2 id=&#34;82技巧&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#82技巧&#34;&gt;#&lt;/a&gt; 8.2 技巧&lt;/h2&gt;
-&lt;p&gt;夹逼定理，单调有界，先求极限再证明&lt;/p&gt;
-&lt;h2 id=&#34;83总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#83总结&#34;&gt;#&lt;/a&gt; 8.3 总结&lt;/h2&gt;
-&lt;p&gt;数列构造法&lt;/p&gt;
-</content>
-        <category term="极限和连续" />
-        <updated>2021-04-19T12:52:21.573Z</updated>
     </entry>
     <entry>
         <id>https://isviolet.github.io/p/37074.html</id>
