@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://isviolet.github.io</id>
+    <title>友人帐🎴 • Posts by &#34;仿明日方舟&#34; category</title>
+    <link href="https://isviolet.github.io" />
+    <updated>2022-02-27T12:40:43.304Z</updated>
+    <category term="Android" />
+    <category term="随文" />
+    <category term="JAVAWEB" />
+    <category term="unity3D" />
+    <category term="springboot" />
+    <category term="bug" />
+    <category term="linux" />
+    <category term="HTTP" />
+    <category term="python" />
+    <category term="爬虫" />
+    <category term="栈" />
+    <category term="线性表" />
+    <category term="JAVA" />
+    <category term="JAVA开发手册" />
+    <category term="数据库" />
+    <entry>
+        <id>https://isviolet.github.io/p/325d7261.html</id>
+        <title>如何进行场景建模</title>
+        <link rel="alternate" href="https://isviolet.github.io/p/325d7261.html"/>
+        <content type="html">&lt;h1 id=&#34;前期工具准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前期工具准备&#34;&gt;#&lt;/a&gt; 前期工具准备&lt;/h1&gt;
+&lt;h2 id=&#34;rhino-6&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rhino-6&#34;&gt;#&lt;/a&gt; Rhino 6&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/02/28/8j9gpPLMaAwbkyd.png&#34; alt=&#34;image-20220227205404166&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;以上是下载链接了，需要用到的是其中的 grasshopper，之后会提到。&lt;/p&gt;
+&lt;h1 id=&#34;插件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件&#34;&gt;#&lt;/a&gt; 插件&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;插件 lunchbox（读取 excel、自动 bake、随机分组）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插件 human（应用立方体贴图轴）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插件 kangaroo2（删除重复直线、网格清理）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插件 meshedit （炸开网格）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插件 meshtool（网格管）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;需要在 grasshopper 中安装以上的插件，否则可能效果不佳。&lt;/p&gt;
+&lt;h2 id=&#34;怎么安装插件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#怎么安装插件&#34;&gt;#&lt;/a&gt; 怎么安装插件&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;打开犀牛，输入指令打开 grasshopper&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/02/28/eOBgT1XNHfA2RrD.png&#34; alt=&#34;image-20220227210125820&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;打开 file，选择 special folders 的 components folders&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/02/28/bmLJFf4TQi9Yt2j.png&#34; alt=&#34;image-20220227210253653&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;拖入插件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;打开文件夹后将插件拖到 grasshopper 中就🆗了&lt;/p&gt;
+&lt;h1 id=&#34;建模&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#建模&#34;&gt;#&lt;/a&gt; 建模&lt;/h1&gt;
+&lt;p&gt;使用 grasshopper 编写样本，开启电池，在犀牛预览模型。&lt;/p&gt;
+&lt;p&gt;样本 demo： &lt;a href=&#34;1.assets/%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E5%99%A8.gh&#34;&gt;地图制作器.gh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/02/28/iW72Y9OoE5bceRm.png&#34; alt=&#34;image-20220227211823624&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;注意&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注意&#34;&gt;#&lt;/a&gt; 注意❗&lt;/h2&gt;
+&lt;p&gt;同时需要一份 excel 文件，且在打开状态，格式如下&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s2.loli.net/2022/02/28/PYW1aZGbpr9z5Ct.png&#34; alt=&#34;image-20220227212109017&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;如何导出&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何导出&#34;&gt;#&lt;/a&gt; 如何导出&lt;/h1&gt;
+&lt;p&gt;由于我需要在 unity3D 中使用，使用搜索引擎查找后只发现了.obj 和.fbx 两种格式可以导入 unity，也许两种格式已经完全够用了不是吗～&lt;/p&gt;
+&lt;p&gt;尴尬的是，导出的文件应用在 unity 后，会出现材质纹理丢失的问题，具体原因未知😔&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;fbx 文件为白模&lt;/li&gt;
+&lt;li&gt;obj 文件部分材质丢失，尚且可用&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <updated>2022-02-27T12:40:43.304Z</updated>
+    </entry>
+</feed>
