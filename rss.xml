@@ -5,26 +5,115 @@
         <link>https://isviolet.github.io</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Mon, 28 Feb 2022 12:50:28 +0800</pubDate>
-        <lastBuildDate>Mon, 28 Feb 2022 12:50:28 +0800</lastBuildDate>
+        <pubDate>Sat, 05 Mar 2022 20:35:18 +0800</pubDate>
+        <lastBuildDate>Sat, 05 Mar 2022 20:35:18 +0800</lastBuildDate>
         <category>随文</category>
-        <category>Android</category>
         <category>JAVAWEB</category>
+        <category>Android</category>
         <category>unity3D</category>
         <category>springboot</category>
-        <category>HTTP</category>
         <category>bug</category>
         <category>linux</category>
+        <category>HTTP</category>
         <category>python</category>
         <category>爬虫</category>
-        <category>线性表</category>
         <category>栈</category>
-        <category>JAVA开发手册</category>
+        <category>线性表</category>
+        <category>JAVA</category>
         <category>危机合约</category>
         <category>明日方舟</category>
         <category>游戏</category>
-        <category>JAVA</category>
+        <category>JAVA开发手册</category>
         <category>数据库</category>
+        <item>
+            <guid isPermalink="true">https://isviolet.github.io/p/0.html</guid>
+            <title></title>
+            <link>https://isviolet.github.io/p/0.html</link>
+            <pubDate>Sat, 05 Mar 2022 20:35:18 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;java语言概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java语言概述&#34;&gt;#&lt;/a&gt; java 语言概述&lt;/h2&gt;
+&lt;p&gt;Java 是 sun 公司开发的一门编程语言，目前被 Oracle 公司收购，编程语言就是用来编写软件的。&lt;/p&gt;
+&lt;h3 id=&#34;java的应用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java的应用&#34;&gt;#&lt;/a&gt; Java 的应用&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;开发 QQ、迅雷程序 (桌面应用软件)&lt;/li&gt;
+&lt;li&gt;淘宝、京东 (互联网应用软件)&lt;/li&gt;
+&lt;li&gt;安卓应用程序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;java的擅长&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java的擅长&#34;&gt;#&lt;/a&gt; Java 的擅长&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;互联网：电商、P2P 等等&lt;/li&gt;
+&lt;li&gt;企业级应用：ERP、CRM、BOS、OA 等等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;java语言平台&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java语言平台&#34;&gt;#&lt;/a&gt; Java 语言平台&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;JavaSE（标准版）部分，JavaSE 并不能开发大型项目。&lt;/li&gt;
+&lt;li&gt;JavaEE（企业版）部分，学习完 JavaEE 部分就可以开发各种大型项目了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;java语言开发环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java语言开发环境&#34;&gt;#&lt;/a&gt; java 语言开发环境&lt;/h2&gt;
+&lt;p&gt;JDK 是 Java 开发环境，官网 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5vcmFjbGUuY29tL2NuL2luZGV4Lmh0bWw=&#34;&gt;http://www.oracle.com/cn/index.html&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;jdk的安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jdk的安装&#34;&gt;#&lt;/a&gt; JDK 的安装&lt;/h3&gt;
+&lt;p&gt;傻瓜式安装，双击安装程序，然后一路 next 即可，安装的推荐方式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装路径不要有中文或者特殊符号如空格等。&lt;/li&gt;
+&lt;li&gt;所有和开发相关的软件最好安装目录统一。&lt;/li&gt;
+&lt;li&gt;当提示安装 JRE 时，可以选择不安装。建议还是安装上。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;验证安装是否成功，通过 DOS 命令，切换到 JDK 安装的 bin 目录下。比如  &lt;code&gt;D:\develop\Java\jdk1.7.0_72\bin&lt;/code&gt; ，然后分别输入 javac 和 java，如果正常显示一些内容，说明安装成功。&lt;/p&gt;
+&lt;h3 id=&#34;配置环境变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置环境变量&#34;&gt;#&lt;/a&gt; 配置环境变量&lt;/h3&gt;
+&lt;p&gt;环境变量的作用：由于 javac 和 java 命令只能在固定的目录下才能执行，而我们写的代码如果都和 javac 及 java 命令放在相同的目录中的话，会显得很乱”，为了让 Java 的 bin 目录下的 javac 命令可以在任意目录下执行，就得配置环境变量。&lt;/p&gt;
+&lt;p&gt;具体安装参考：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5jbmJsb2dzLmNvbS9CZWxpZWZsZWUvcC80Nzc4MzE1Lmh0bWw=&#34;&gt;JAVA 开发环境的搭建（配置 JAVA 开发环境）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JDK 和 JRE 以及跨平台&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;JDK 与 JRE 的关系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JDK：Java Development Kit ，Java 语言的开发工具包，提供了 Java 语言的开发工具，它里面包含了 JRE，同时也就包含了 JVM（Java 虚拟机）。&lt;/li&gt;
+&lt;li&gt;JRE：Java Runtime Environment，它是 Java 运行环境，如果你不需要开发只需要运行 Java 程序，那么你可以安装 JRE。例如程序员开发出的程序最终卖给了用户，用户不用开发，只需要运行程序，所以用户在电脑上安装 JRE 即可。它包含了 Java 虚拟机，也就是 JVM，同时还包含了 Java 语言运行需要的核心类库。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;跨平台特性：平台指的是操作系统 （Windows，Linux，Mac）。只需在相应的平台上安装 Java 虚拟机，就可以运行 Java 程序。&lt;/p&gt;
+&lt;h2 id=&#34;使用intellij-idea打印hello-world&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用intellij-idea打印hello-world&#34;&gt;#&lt;/a&gt; 使用 IntelliJ IDEA 打印 Hello World&lt;/h2&gt;
+&lt;h3 id=&#34;第一步创建新项目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一步创建新项目&#34;&gt;#&lt;/a&gt; 第一步：创建新项目&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/612774-20170701211232211-2109811476.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;第二步选择jdk然后next&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二步选择jdk然后next&#34;&gt;#&lt;/a&gt; 第二步：选择 jdk，然后 next&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/612774-20170701211457883-150724723.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;第三步选择hello-world模板然后next&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第三步选择hello-world模板然后next&#34;&gt;#&lt;/a&gt; 第三步：选择 Hello World 模板，然后 Next&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/612774-20170701211626743-101552981.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;第四步输入项目名称然后finish&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第四步输入项目名称然后finish&#34;&gt;#&lt;/a&gt; 第四步：输入项目名称，然后 Finish&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/612774-20170701211759305-689114650.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;第五步运行&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第五步运行&#34;&gt;#&lt;/a&gt; 第五步：运行&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/612774-20170701211901883-623625448.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;第六步查看结果&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第六步查看结果&#34;&gt;#&lt;/a&gt; 第六步：查看结果&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/612774-20170701211940899-68699482.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;java代码的编写执行过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java代码的编写执行过程&#34;&gt;#&lt;/a&gt; Java 代码的编写执行过程&lt;/h2&gt;
+&lt;p&gt;源文件：编写 Java 源文件（我们也称之为源代码文件），它的扩展名为.java；&lt;/p&gt;
+&lt;p&gt;编译：然后通过编译器把源文件编译成字节码文件，字节码文件扩展名为.class；&lt;/p&gt;
+&lt;p&gt;运行：最后使用解释器来运行字节码文件。&lt;/p&gt;
+&lt;h2 id=&#34;centos7下java8安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#centos7下java8安装&#34;&gt;#&lt;/a&gt; CentOS7 下 Java8 安装&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;到 https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 找到 jdk-8u221-linux-x64.tar.gz 的下载地址，需要登录。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开终端，使用 wget 命令下载。比如：wget &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb3dubG9hZC5vcmFjbGUuY29tL290bi9qYXZhL2pkay84dTIyMS1iMTEvMjMwZGViMThkYjNlNDAxNGJiOGUzZTgzMjRmODFiNDMvamRrLTh1MjIxLWxpbnV4LXg2NC50YXIuZ3o/QXV0aFBhcmFtPTE1Njk2NDE1MzBfMDVjNjk5YTAwYWMyYWZlMGMwZGRlN2NjNTc4NGU0ZDU=&#34;&gt;https://download.oracle.com/otn/java/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jdk-8u221-linux-x64.tar.gz?AuthParam=1569641530_05c699a00ac2afe0c0dde7cc5784e4d5&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解压，tar -xzvf jdk-8u221-linux-x64.tar.gz?AuthParam=1569641530_05c699a00ac2afe0c0dde7cc5784e4d5&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;移动到 /usr/local 目录下，mv jdk-8u221-linux-x64.tar.gz?AuthParam=1569641530_05c699a00ac2afe0c0dde7cc5784e4d5 /opt/usr&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;切换到 opt 目录下，cd /opt/usr&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;改名为 java8，mv jdk-8u221-linux-x64.tar.gz?AuthParam=1569641530_05c699a00ac2afe0c0dde7cc5784e4d5 java8&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;配置环境变量，vi /etc/profile, 在文件后面追加以下代码：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token assign-left variable&#34;&gt;JAVA_HOME&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;/usr/local/java8&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token assign-left variable&#34;&gt;JRE_HOME&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;/usr/local/java8/jre&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token assign-left variable&#34;&gt;&lt;span class=&#34;token environment constant&#34;&gt;PATH&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token environment constant&#34;&gt;$PATH&lt;/span&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;$JAVA_HOME&lt;/span&gt;/bin:&lt;span class=&#34;token variable&#34;&gt;$JRE_HOME&lt;/span&gt;/bin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token assign-left variable&#34;&gt;CLASSPATH&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;.:&lt;span class=&#34;token variable&#34;&gt;$JAVA_HOME&lt;/span&gt;/lib/dt.jar:&lt;span class=&#34;token variable&#34;&gt;$JAVA_HOME&lt;/span&gt;/lib/tools.jar:&lt;span class=&#34;token variable&#34;&gt;$JRE_HOME&lt;/span&gt;/lib&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;export&lt;/span&gt; JAVA_HOME JRE_HOME &lt;span class=&#34;token environment constant&#34;&gt;PATH&lt;/span&gt; CLASSPATH&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;执行 source /etc/profile 命令使配置生效，到这一步就算安装完成了，使用 java -version 查看安装是否成功。&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://isviolet.github.io/p/cd488b3f.html</guid>
             <title>日替 炽热溶洞</title>
