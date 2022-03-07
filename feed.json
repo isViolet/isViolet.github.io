@@ -5,6 +5,14 @@
     "home_page_url": "https://isviolet.github.io",
     "items": [
         {
+            "id": "https://isviolet.github.io/p/b82795a3.html",
+            "url": "https://isviolet.github.io/p/b82795a3.html",
+            "title": "SysDVR串流",
+            "date_published": "2022-03-07T10:53:47.551Z",
+            "content_html": "<blockquote>\n<p>今天本来想串流 NS 画面到电脑上玩会游戏的，结果出现了一个未知问题，启动程序不显示游戏画面，变成了白屏（之前一直好好的），于是想着写下步骤，以防万一下次还是出错。</p>\n<p><img data-src=\"https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220307185925656.png\" alt=\"image-20220307185925656\" /></p>\n</blockquote>\n<h1 id=\"文件准备\"><a class=\"anchor\" href=\"#文件准备\">#</a> 文件准备</h1>\n<p><img data-src=\"https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220307190206343.png\" alt=\"image-20220307190206343\" /></p>\n<p>第一第二文件资源可以在 github 上下载到，第三第四可以自行百度查找最新版。</p>\n<h1 id=\"详细步骤\"><a class=\"anchor\" href=\"#详细步骤\">#</a> 详细步骤</h1>\n<ol>\n<li>复制 SysDVR 文件内的所有文件夹到 NS 的存储根目录（遇到同文件夹合并覆盖即可）</li>\n<li>然后重启 NS，打开相册内的 SysDVR，有三种模式，选择最下面的 USB 连接，保存。</li>\n<li><span class=\"exturl\" data-url=\"aHR0cDovL3huLS00OXNxNjZoLk5ldA==\">安装.Net</span><img data-src=\"https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220307190535120.png\" alt=\"image-20220307190535120\" /></li>\n<li>打开 Zadig，安装如下驱动<img data-src=\"https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220307192303282.png\" alt=\"image-20220307192303282\" /></li>\n<li>有两个驱动，一个视频，一个音频，都要安装驱动</li>\n<li>之后在 NS 上保存并退出 SysDVR，如果退出听到电脑连接断开的声音，就重新该步骤</li>\n<li>启动 clientUI 程序，设置如下 lunch 即可<img data-src=\"https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220307192653147.png\" alt=\"image-20220307192653147\" /></li>\n<li>接下来在 NS 上启动游戏，即可看到游戏画面了</li>\n</ol>\n<p>' 如果遇到白屏的问题，可以去看下是不是驱动装错了，我检查后发现自己就是驱动出错了，前几天还好好的，不知道为什么驱动给我换了'</p>\n",
+            "tags": []
+        },
+        {
             "id": "https://isviolet.github.io/p/9eeb6c91.html",
             "url": "https://isviolet.github.io/p/9eeb6c91.html",
             "title": "Java基础学习笔记二 Java基础语法之变量、数据类型",

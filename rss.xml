@@ -5,26 +5,52 @@
         <link>https://isviolet.github.io</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sat, 05 Mar 2022 21:47:34 +0800</pubDate>
-        <lastBuildDate>Sat, 05 Mar 2022 21:47:34 +0800</lastBuildDate>
+        <pubDate>Mon, 07 Mar 2022 18:53:47 +0800</pubDate>
+        <lastBuildDate>Mon, 07 Mar 2022 18:53:47 +0800</lastBuildDate>
         <category>随文</category>
-        <category>Android</category>
         <category>JAVAWEB</category>
         <category>unity3D</category>
         <category>springboot</category>
+        <category>Android</category>
+        <category>危机合约</category>
+        <category>明日方舟</category>
+        <category>游戏</category>
         <category>HTTP</category>
         <category>bug</category>
         <category>linux</category>
         <category>python</category>
         <category>爬虫</category>
         <category>栈</category>
-        <category>危机合约</category>
-        <category>明日方舟</category>
-        <category>游戏</category>
-        <category>线性表</category>
         <category>JAVA</category>
+        <category>线性表</category>
         <category>JAVA开发手册</category>
         <category>数据库</category>
+        <item>
+            <guid isPermalink="true">https://isviolet.github.io/p/b82795a3.html</guid>
+            <title>SysDVR串流</title>
+            <link>https://isviolet.github.io/p/b82795a3.html</link>
+            <pubDate>Mon, 07 Mar 2022 18:53:47 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;今天本来想串流 NS 画面到电脑上玩会游戏的，结果出现了一个未知问题，启动程序不显示游戏画面，变成了白屏（之前一直好好的），于是想着写下步骤，以防万一下次还是出错。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220307185925656.png&#34; alt=&#34;image-20220307185925656&#34; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;文件准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件准备&#34;&gt;#&lt;/a&gt; 文件准备&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220307190206343.png&#34; alt=&#34;image-20220307190206343&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;第一第二文件资源可以在 github 上下载到，第三第四可以自行百度查找最新版。&lt;/p&gt;
+&lt;h1 id=&#34;详细步骤&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#详细步骤&#34;&gt;#&lt;/a&gt; 详细步骤&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;复制 SysDVR 文件内的所有文件夹到 NS 的存储根目录（遇到同文件夹合并覆盖即可）&lt;/li&gt;
+&lt;li&gt;然后重启 NS，打开相册内的 SysDVR，有三种模式，选择最下面的 USB 连接，保存。&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3huLS00OXNxNjZoLk5ldA==&#34;&gt;安装.Net&lt;/span&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220307190535120.png&#34; alt=&#34;image-20220307190535120&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;打开 Zadig，安装如下驱动&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220307192303282.png&#34; alt=&#34;image-20220307192303282&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;有两个驱动，一个视频，一个音频，都要安装驱动&lt;/li&gt;
+&lt;li&gt;之后在 NS 上保存并退出 SysDVR，如果退出听到电脑连接断开的声音，就重新该步骤&lt;/li&gt;
+&lt;li&gt;启动 clientUI 程序，设置如下 lunch 即可&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220307192653147.png&#34; alt=&#34;image-20220307192653147&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;接下来在 NS 上启动游戏，即可看到游戏画面了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&#39; 如果遇到白屏的问题，可以去看下是不是驱动装错了，我检查后发现自己就是驱动出错了，前几天还好好的，不知道为什么驱动给我换了&#39;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://isviolet.github.io/p/9eeb6c91.html</guid>
             <title>Java基础学习笔记二 Java基础语法之变量、数据类型</title>
