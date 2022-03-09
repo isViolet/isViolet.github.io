@@ -3,7 +3,7 @@
     <id>https://isviolet.github.io</id>
     <title>友人帐🎴 • Posts by &#34;作品设计&#34; category</title>
     <link href="https://isviolet.github.io" />
-    <updated>2022-02-27T12:40:43.304Z</updated>
+    <updated>2022-03-09T04:52:13.956Z</updated>
     <category term="随文" />
     <category term="JAVAWEB" />
     <category term="Android" />
@@ -12,19 +12,150 @@
     <category term="HTTP" />
     <category term="bug" />
     <category term="linux" />
+    <category term="线性表" />
     <category term="python" />
     <category term="爬虫" />
-    <category term="栈" />
     <category term="JAVA" />
     <category term="JAVA开发手册" />
-    <category term="线性表" />
+    <category term="栈" />
     <category term="危机合约" />
     <category term="明日方舟" />
     <category term="游戏" />
     <category term="数据库" />
     <entry>
+        <id>https://isviolet.github.io/p/7bff8c7a.html</id>
+        <title>2.人物孵化、移动路线制作</title>
+        <link rel="alternate" href="https://isviolet.github.io/p/7bff8c7a.html"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;最近有些忙碌了，关于明日方舟的模仿制作进度有些耽搁了，今天打算把人物的生成，路线的规划，人物移动的动画等功能做个了结&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;素材准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#素材准备&#34;&gt;#&lt;/a&gt; 素材准备&lt;/h1&gt;
+&lt;p&gt;因为是模仿明日方舟，我手上也没有现成的素材可以使用，所以准备借用方舟的小人模型进行学习使用，本人不会用于任何商业用途，不进行分享传播，只是个人使用。（强烈的求生欲）&lt;/p&gt;
+&lt;h2 id=&#34;如何获取小人模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何获取小人模型&#34;&gt;#&lt;/a&gt; 如何获取小人模型&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;哔哩哔哩上有提取人物模型的教程 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3JlYWQvY3Y2MDE0MjE0&#34;&gt;明日方舟人物素材提取的补充【20200510】&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;哔哩哔哩有 Up 上传了部分的小人模型，大约十个左右，对于我学习来说够用了，有兴趣可以自行去搜索&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;制作动画序列图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#制作动画序列图&#34;&gt;#&lt;/a&gt; 制作动画序列图&lt;/h2&gt;
+&lt;h3 id=&#34;动画原料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#动画原料&#34;&gt;#&lt;/a&gt; 动画原料&lt;/h3&gt;
+&lt;p&gt;如果要制作小人动画，就需要很多的序列图，这里我搞到了一个透明背景的 MOV 视频&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309180330853.png&#34; alt=&#34;image-20220309180330853&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;但是仅仅视频是完全不行的，需要的是图片，也就是帧，接下来我就去寻找如果去获取序列图了。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;截取视频&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#截取视频&#34;&gt;#&lt;/a&gt; 截取视频&lt;/h3&gt;
+&lt;p&gt;发现视频播放器可以截图，保存帧的各个图片，于是我立刻就去截图了，但是发现出来的并不是透明背景的，而且图片尺寸不是小人的大小，还包含了边上的没用的部分&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309180330853.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;效果类似上面这样，如果这样放进 unity，会有一坨黑色的背景。&lt;/p&gt;
+&lt;p&gt;于是我又开始寻找如何去背景水印和截图了。&lt;/p&gt;
+&lt;h3 id=&#34;批量截图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#批量截图&#34;&gt;#&lt;/a&gt; 批量截图&lt;/h3&gt;
+&lt;p&gt;最终我也没找到什么软件可以一键批量截图，只找到一个批量导入再一张一张裁剪的软件，然而要钱🤬&lt;/p&gt;
+&lt;p&gt;我想到自己选个区域录频，然后再截图，那裁剪的工作就完成了，算是投机取巧了。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309180401208.png&#34; alt=&#34;image-20220309180401208&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;效果类似这样了，接下来就是去背景水印了。&lt;/p&gt;
+&lt;h3 id=&#34;去背景水印&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#去背景水印&#34;&gt;#&lt;/a&gt; 去背景水印&lt;/h3&gt;
+&lt;p&gt;也是一样，不是功能鸡肋就是要钱，最可气的是功能鸡肋还要钱的软件了🤬🤬🤬&lt;/p&gt;
+&lt;p&gt;最后找到一款不错的去背景软件&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmVtb3ZlLmJnL3poL2hlbHAvcmVtb3ZlLWJnLWZvci1kZXNrdG9w&#34;&gt; Remove.bg&lt;/span&gt;，安装在电脑上，注册个账号获取 API 密钥，就可以批量导入然后获得透明背景的图片了。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309180408880.png&#34; alt=&#34;image-20220309180408880&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;搞了半天终于完成了这个工作，但有人会说为什么不用 Ps 和 Ae，因为我没下载，也不会用。🤬&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;敌人路径&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#敌人路径&#34;&gt;#&lt;/a&gt; 敌人路径&lt;/h1&gt;
+&lt;p&gt;首先展示下地图全貌&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309172449791.png&#34; alt=&#34;image-20220309172449791&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;创建地图移动点坐标&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建地图移动点坐标&#34;&gt;#&lt;/a&gt; 创建地图移动点坐标&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309172700206.png&#34; alt=&#34;image-20220309172700206&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;创建三个坐标，就是上图中的三个蓝色的物体。作用是引导敌人移动的轨迹。&lt;/p&gt;
+&lt;p&gt;将三个点都放到父控件中，并且给父控件添加一个脚本&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c#&#34;&gt;public class WayPoints : MonoBehaviour
+&amp;#123;
+    public static Transform[] positions;
+    void Awake()&amp;#123;
+        positions = new Transform[transform.childCount];
+        for (int i = 0; i &amp;lt; positions.Length; i++)
+        &amp;#123;
+            positions[i] = transform.GetChild(i);
+        &amp;#125;
+    &amp;#125;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;创建游戏管理类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建游戏管理类&#34;&gt;#&lt;/a&gt; 创建游戏管理类&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c#&#34;&gt;public class EnemySpawner : MonoBehaviour
+&amp;#123;
+    public static int CountEnemyAlive = 0;
+    public Wave[] waves;
+    public Transform START;
+    public float waveRate;
+
+    // Start is called before the first frame update
+    void Start() &amp;#123;
+        StartCoroutine(SpawnEnemy());
+    &amp;#125;
+
+    IEnumerator SpawnEnemy()&amp;#123;
+        foreach (Wave wave in waves)&amp;#123;
+            for (int i = 0; i &amp;lt; wave. count; i++)&amp;#123;
+                GameObject.Instantiate(wave.enemyPrefab, START.position, Quaternion.identity);
+                CountEnemyAlive++;
+                yield return new WaitForSeconds(wave.rate);
+            &amp;#125;
+            while(CountEnemyAlive &amp;gt; 0)&amp;#123;
+                yield return 0;
+            &amp;#125;
+            yield return new WaitForSeconds(waveRate);
+        &amp;#125;
+    &amp;#125; 
+    
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c#&#34;&gt;[System.Serializable]
+public class Wave&amp;#123;
+    public GameObject enemyPrefab;
+    public int count;
+    public float rate;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;代码如上，表示敌人显示的波数、每波敌人的类型，敌人的出怪数量和速度等等都可以控制。&lt;/p&gt;
+&lt;p&gt;这是我的每波敌人的详细设置&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309173500302.png&#34; alt=&#34;image-20220309173500302&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;角色移动动画制作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#角色移动动画制作&#34;&gt;#&lt;/a&gt; 角色移动动画制作&lt;/h1&gt;
+&lt;p&gt;已经准备好了角色的动画序列图，接下来制作下动画，步骤还是比较简单的。&lt;/p&gt;
+&lt;h2 id=&#34;导入picture&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导入picture&#34;&gt;#&lt;/a&gt; 导入 picture&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309173659816.png&#34; alt=&#34;image-20220309173659816&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;导入后可能不能拖动到场景中，原因是图片类型不对&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309173755832.png&#34; alt=&#34;image-20220309173755832&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;将其修改成 sprite 就可以了&lt;/p&gt;
+&lt;h2 id=&#34;创建动画类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建动画类&#34;&gt;#&lt;/a&gt; 创建动画类&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;选中该角色，创建一个组件叫 animator&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309174204425.png&#34; alt=&#34;image-20220309174204425&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;在创建一个 animate controller，将其移动到 animator 中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309174242682.png&#34; alt=&#34;image-20220309174242682&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;创建一个 animation，接下来就可以制作动画了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309174335840.png&#34; alt=&#34;image-20220309174335840&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建动画并添加图片&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309174522374.png&#34; alt=&#34;image-20220309174522374&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://guli77.oss-cn-beijing.aliyuncs.com/blog_img/image-20220309174531911.png&#34; alt=&#34;image-20220309174531911&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;动画制作完成了✔️&lt;/p&gt;
+</content>
+        <updated>2022-03-09T04:52:13.956Z</updated>
+    </entry>
+    <entry>
         <id>https://isviolet.github.io/p/325d7261.html</id>
-        <title>如何进行场景建模</title>
+        <title>1.如何进行场景建模</title>
         <link rel="alternate" href="https://isviolet.github.io/p/325d7261.html"/>
         <content type="html">&lt;h1 id=&#34;前期工具准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前期工具准备&#34;&gt;#&lt;/a&gt; 前期工具准备&lt;/h1&gt;
 &lt;h2 id=&#34;rhino-6&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rhino-6&#34;&gt;#&lt;/a&gt; Rhino 6&lt;/h2&gt;
